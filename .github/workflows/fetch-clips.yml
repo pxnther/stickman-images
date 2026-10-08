@@ -1,0 +1,32 @@
+name: fetch-clips
+on:
+  push:
+    paths:
+      - '**/clips.txt'
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Download clips, drop animated stills, zip folder
+        run: |
+          set -e
+          for list in $(git diff --name-only HEAD~1 HEAD | grep 'clips.txt$' || true); do
+            dir=$(dirname "$list")
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              curl -fsSL "$url" -o "$dir/$name"
+              base="${name%.*}"
+              rm -f "$dir/$base.jpg" "$dir/$base.png"
+            done < "$list"
+            (cd "$dir" && rm -f pack.zip && zip -q -r pack.zip . -x pack.zip -x clips.txt)
+          done
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add -A
+          git commit -m "Add clips and pack" || true
+          git push
