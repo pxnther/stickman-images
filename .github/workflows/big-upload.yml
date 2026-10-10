@@ -1,0 +1,31 @@
+name: big-upload
+# Push split parts (each under 100 MB) on a branch named big-*, with upload/release.txt
+# containing lines "<tag> <filename>". This joins the parts, publishes each file as a
+# GitHub Release asset (up to 2 GB) and deletes the temporary branch.
+on:
+  push:
+    branches: ['big-*']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Join parts and publish release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          while read -r tag name; do
+            [ -z "$tag" ] && continue
+            cat upload/"$name".part_* > "$name"
+            ls -la "$name"
+            if gh release view "$tag" >/dev/null 2>&1; then
+              gh release upload "$tag" "$name" --clobber
+            else
+              gh release create "$tag" "$name" --title "$tag" --notes "Final video"
+            fi
+          done < upload/release.txt
+      - name: Delete temporary branch
+        run: git push origin --delete "${GITHUB_REF_NAME}"
