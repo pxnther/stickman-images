@@ -1,0 +1,2 @@
+world.topo.2004-07.png https://svs.gsfc.nasa.gov/vis/a010000/a012500/a012564/frames/5400x2700_2x1_60p/world.topo.2004-07.png
+world.topo.2004-06.png https://svs.gsfc.nasa.gov/vis/a010000/a012500/a012564/frames/5400x2700_2x1_60p/world.topo.2004-06.png
