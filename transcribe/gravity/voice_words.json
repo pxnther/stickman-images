@@ -1,0 +1,805 @@
+{
+ "duration": 68.20575,
+ "words": [
+  {
+   "word": "Gravity",
+   "start": 0.0,
+   "end": 0.48
+  },
+  {
+   "word": "just",
+   "start": 0.48,
+   "end": 0.88
+  },
+  {
+   "word": "switched",
+   "start": 0.88,
+   "end": 1.28
+  },
+  {
+   "word": "off.",
+   "start": 1.28,
+   "end": 1.72
+  },
+  {
+   "word": "For",
+   "start": 2.2,
+   "end": 2.32
+  },
+  {
+   "word": "five",
+   "start": 2.32,
+   "end": 2.7
+  },
+  {
+   "word": "seconds.",
+   "start": 2.7,
+   "end": 3.26
+  },
+  {
+   "word": "Second",
+   "start": 4.22,
+   "end": 4.24
+  },
+  {
+   "word": "one.",
+   "start": 4.24,
+   "end": 4.66
+  },
+  {
+   "word": "Your",
+   "start": 5.1,
+   "end": 5.12
+  },
+  {
+   "word": "stomach",
+   "start": 5.12,
+   "end": 5.52
+  },
+  {
+   "word": "drops,",
+   "start": 5.52,
+   "end": 6.04
+  },
+  {
+   "word": "like",
+   "start": 6.36,
+   "end": 6.48
+  },
+  {
+   "word": "the",
+   "start": 6.48,
+   "end": 6.66
+  },
+  {
+   "word": "top",
+   "start": 6.66,
+   "end": 6.86
+  },
+  {
+   "word": "of",
+   "start": 6.86,
+   "end": 7.0
+  },
+  {
+   "word": "a",
+   "start": 7.0,
+   "end": 7.16
+  },
+  {
+   "word": "roller",
+   "start": 7.16,
+   "end": 7.4
+  },
+  {
+   "word": "coaster.",
+   "start": 7.4,
+   "end": 7.72
+  },
+  {
+   "word": "But",
+   "start": 8.38,
+   "end": 8.46
+  },
+  {
+   "word": "you",
+   "start": 8.46,
+   "end": 8.6
+  },
+  {
+   "word": "don't",
+   "start": 8.6,
+   "end": 8.8
+  },
+  {
+   "word": "fly",
+   "start": 8.8,
+   "end": 9.04
+  },
+  {
+   "word": "off.",
+   "start": 9.04,
+   "end": 9.44
+  },
+  {
+   "word": "Not",
+   "start": 10.04,
+   "end": 10.16
+  },
+  {
+   "word": "yet.",
+   "start": 10.16,
+   "end": 10.5
+  },
+  {
+   "word": "Earth",
+   "start": 11.04,
+   "end": 11.18
+  },
+  {
+   "word": "is",
+   "start": 11.18,
+   "end": 11.4
+  },
+  {
+   "word": "still",
+   "start": 11.4,
+   "end": 11.64
+  },
+  {
+   "word": "spinning",
+   "start": 11.64,
+   "end": 12.08
+  },
+  {
+   "word": "at",
+   "start": 12.08,
+   "end": 12.4
+  },
+  {
+   "word": "1",
+   "start": 12.4,
+   "end": 12.58
+  },
+  {
+   "word": ",670",
+   "start": 12.58,
+   "end": 14.18
+  },
+  {
+   "word": "kilometres",
+   "start": 14.18,
+   "end": 14.64
+  },
+  {
+   "word": "per",
+   "start": 14.64,
+   "end": 15.06
+  },
+  {
+   "word": "hour.",
+   "start": 15.06,
+   "end": 15.34
+  },
+  {
+   "word": "Nothing",
+   "start": 15.9,
+   "end": 16.1
+  },
+  {
+   "word": "pulls",
+   "start": 16.1,
+   "end": 16.42
+  },
+  {
+   "word": "you",
+   "start": 16.42,
+   "end": 16.56
+  },
+  {
+   "word": "down",
+   "start": 16.56,
+   "end": 16.8
+  },
+  {
+   "word": "anymore,",
+   "start": 16.8,
+   "end": 17.22
+  },
+  {
+   "word": "so",
+   "start": 17.72,
+   "end": 17.96
+  },
+  {
+   "word": "you",
+   "start": 17.96,
+   "end": 18.14
+  },
+  {
+   "word": "keep",
+   "start": 18.14,
+   "end": 18.34
+  },
+  {
+   "word": "going",
+   "start": 18.34,
+   "end": 18.66
+  },
+  {
+   "word": "straight,",
+   "start": 18.66,
+   "end": 19.16
+  },
+  {
+   "word": "while",
+   "start": 19.42,
+   "end": 19.54
+  },
+  {
+   "word": "the",
+   "start": 19.54,
+   "end": 19.7
+  },
+  {
+   "word": "ground",
+   "start": 19.7,
+   "end": 20.06
+  },
+  {
+   "word": "curves",
+   "start": 20.06,
+   "end": 20.48
+  },
+  {
+   "word": "away",
+   "start": 20.48,
+   "end": 20.8
+  },
+  {
+   "word": "under",
+   "start": 20.8,
+   "end": 21.06
+  },
+  {
+   "word": "your",
+   "start": 21.06,
+   "end": 21.28
+  },
+  {
+   "word": "feet.",
+   "start": 21.28,
+   "end": 21.52
+  },
+  {
+   "word": "You",
+   "start": 22.06,
+   "end": 22.14
+  },
+  {
+   "word": "drift",
+   "start": 22.14,
+   "end": 22.5
+  },
+  {
+   "word": "up.",
+   "start": 22.5,
+   "end": 22.92
+  },
+  {
+   "word": "About",
+   "start": 23.32,
+   "end": 23.52
+  },
+  {
+   "word": "forty",
+   "start": 23.52,
+   "end": 23.94
+  },
+  {
+   "word": "centimetres",
+   "start": 23.94,
+   "end": 24.58
+  },
+  {
+   "word": "in",
+   "start": 24.58,
+   "end": 24.8
+  },
+  {
+   "word": "five",
+   "start": 24.8,
+   "end": 25.16
+  },
+  {
+   "word": "seconds.",
+   "start": 25.16,
+   "end": 25.68
+  },
+  {
+   "word": "Second",
+   "start": 25.68,
+   "end": 26.66
+  },
+  {
+   "word": "two.",
+   "start": 26.66,
+   "end": 27.1
+  },
+  {
+   "word": "Cars",
+   "start": 27.58,
+   "end": 27.82
+  },
+  {
+   "word": "can't",
+   "start": 27.82,
+   "end": 28.32
+  },
+  {
+   "word": "brake.",
+   "start": 28.32,
+   "end": 28.56
+  },
+  {
+   "word": "No",
+   "start": 29.1,
+   "end": 29.24
+  },
+  {
+   "word": "weight",
+   "start": 29.24,
+   "end": 29.58
+  },
+  {
+   "word": "means",
+   "start": 29.58,
+   "end": 29.9
+  },
+  {
+   "word": "no",
+   "start": 29.9,
+   "end": 30.18
+  },
+  {
+   "word": "grip.",
+   "start": 30.18,
+   "end": 30.5
+  },
+  {
+   "word": "They",
+   "start": 30.92,
+   "end": 31.04
+  },
+  {
+   "word": "just",
+   "start": 31.04,
+   "end": 31.32
+  },
+  {
+   "word": "keep",
+   "start": 31.32,
+   "end": 31.56
+  },
+  {
+   "word": "rolling.",
+   "start": 31.56,
+   "end": 31.98
+  },
+  {
+   "word": "Second",
+   "start": 32.6,
+   "end": 32.8
+  },
+  {
+   "word": "three.",
+   "start": 32.8,
+   "end": 33.22
+  },
+  {
+   "word": "You",
+   "start": 33.72,
+   "end": 33.8
+  },
+  {
+   "word": "try",
+   "start": 33.8,
+   "end": 34.1
+  },
+  {
+   "word": "a",
+   "start": 34.1,
+   "end": 34.36
+  },
+  {
+   "word": "tiny",
+   "start": 34.36,
+   "end": 34.68
+  },
+  {
+   "word": "hop.",
+   "start": 34.68,
+   "end": 35.06
+  },
+  {
+   "word": "Bad",
+   "start": 35.72,
+   "end": 35.86
+  },
+  {
+   "word": "idea.",
+   "start": 35.86,
+   "end": 36.26
+  },
+  {
+   "word": "Two",
+   "start": 36.82,
+   "end": 36.96
+  },
+  {
+   "word": "seconds",
+   "start": 36.96,
+   "end": 37.28
+  },
+  {
+   "word": "later,",
+   "start": 37.28,
+   "end": 37.66
+  },
+  {
+   "word": "you're",
+   "start": 37.98,
+   "end": 38.18
+  },
+  {
+   "word": "at",
+   "start": 38.18,
+   "end": 38.3
+  },
+  {
+   "word": "the",
+   "start": 38.3,
+   "end": 38.48
+  },
+  {
+   "word": "second",
+   "start": 38.48,
+   "end": 38.76
+  },
+  {
+   "word": "-floor",
+   "start": 38.76,
+   "end": 39.04
+  },
+  {
+   "word": "windows.",
+   "start": 39.04,
+   "end": 39.54
+  },
+  {
+   "word": "Second",
+   "start": 40.16,
+   "end": 40.4
+  },
+  {
+   "word": "four.",
+   "start": 40.4,
+   "end": 40.84
+  },
+  {
+   "word": "The",
+   "start": 41.32,
+   "end": 41.42
+  },
+  {
+   "word": "air",
+   "start": 41.42,
+   "end": 41.66
+  },
+  {
+   "word": "above",
+   "start": 41.66,
+   "end": 41.92
+  },
+  {
+   "word": "you",
+   "start": 41.92,
+   "end": 42.16
+  },
+  {
+   "word": "starts",
+   "start": 42.16,
+   "end": 42.48
+  },
+  {
+   "word": "drifting",
+   "start": 42.48,
+   "end": 42.92
+  },
+  {
+   "word": "off",
+   "start": 42.92,
+   "end": 43.34
+  },
+  {
+   "word": "into",
+   "start": 43.34,
+   "end": 44.0
+  },
+  {
+   "word": "space.",
+   "start": 44.0,
+   "end": 44.52
+  },
+  {
+   "word": "Then,",
+   "start": 45.28,
+   "end": 45.56
+  },
+  {
+   "word": "second",
+   "start": 46.26,
+   "end": 46.58
+  },
+  {
+   "word": "five.",
+   "start": 46.58,
+   "end": 47.06
+  },
+  {
+   "word": "But",
+   "start": 47.56,
+   "end": 47.68
+  },
+  {
+   "word": "here's",
+   "start": 47.68,
+   "end": 47.96
+  },
+  {
+   "word": "the",
+   "start": 47.96,
+   "end": 48.1
+  },
+  {
+   "word": "twist.",
+   "start": 48.1,
+   "end": 48.46
+  },
+  {
+   "word": "The",
+   "start": 48.92,
+   "end": 49.08
+  },
+  {
+   "word": "danger",
+   "start": 49.08,
+   "end": 49.42
+  },
+  {
+   "word": "was",
+   "start": 49.42,
+   "end": 49.66
+  },
+  {
+   "word": "never",
+   "start": 49.66,
+   "end": 50.0
+  },
+  {
+   "word": "gravity",
+   "start": 50.0,
+   "end": 50.46
+  },
+  {
+   "word": "turning",
+   "start": 50.46,
+   "end": 50.8
+  },
+  {
+   "word": "off.",
+   "start": 50.8,
+   "end": 51.28
+  },
+  {
+   "word": "It's",
+   "start": 51.3,
+   "end": 51.9
+  },
+  {
+   "word": "gravity",
+   "start": 51.9,
+   "end": 52.34
+  },
+  {
+   "word": "coming",
+   "start": 52.34,
+   "end": 52.88
+  },
+  {
+   "word": "back.",
+   "start": 52.88,
+   "end": 53.3
+  },
+  {
+   "word": "Everything",
+   "start": 53.3,
+   "end": 54.24
+  },
+  {
+   "word": "that",
+   "start": 54.24,
+   "end": 54.5
+  },
+  {
+   "word": "drifted",
+   "start": 54.5,
+   "end": 54.82
+  },
+  {
+   "word": "up",
+   "start": 54.82,
+   "end": 55.14
+  },
+  {
+   "word": "comes",
+   "start": 55.14,
+   "end": 55.64
+  },
+  {
+   "word": "down.",
+   "start": 55.64,
+   "end": 56.08
+  },
+  {
+   "word": "At",
+   "start": 56.5,
+   "end": 56.66
+  },
+  {
+   "word": "once.",
+   "start": 56.66,
+   "end": 57.14
+  },
+  {
+   "word": "Including",
+   "start": 57.66,
+   "end": 58.06
+  },
+  {
+   "word": "you.",
+   "start": 58.06,
+   "end": 58.46
+  },
+  {
+   "word": "Five",
+   "start": 59.04,
+   "end": 59.26
+  },
+  {
+   "word": "metres",
+   "start": 59.26,
+   "end": 59.52
+  },
+  {
+   "word": "up.",
+   "start": 59.52,
+   "end": 59.9
+  },
+  {
+   "word": "You",
+   "start": 60.34,
+   "end": 60.4
+  },
+  {
+   "word": "hit",
+   "start": 60.4,
+   "end": 60.56
+  },
+  {
+   "word": "the",
+   "start": 60.56,
+   "end": 60.72
+  },
+  {
+   "word": "ground",
+   "start": 60.72,
+   "end": 61.0
+  },
+  {
+   "word": "at",
+   "start": 61.0,
+   "end": 61.36
+  },
+  {
+   "word": "thirty",
+   "start": 61.36,
+   "end": 61.56
+  },
+  {
+   "word": "-six",
+   "start": 61.56,
+   "end": 61.9
+  },
+  {
+   "word": "kilometres",
+   "start": 61.9,
+   "end": 62.36
+  },
+  {
+   "word": "per",
+   "start": 62.36,
+   "end": 62.72
+  },
+  {
+   "word": "hour.",
+   "start": 62.72,
+   "end": 63.04
+  },
+  {
+   "word": "So",
+   "start": 63.56,
+   "end": 63.66
+  },
+  {
+   "word": "if",
+   "start": 63.66,
+   "end": 63.82
+  },
+  {
+   "word": "gravity",
+   "start": 63.82,
+   "end": 64.16
+  },
+  {
+   "word": "switched",
+   "start": 64.16,
+   "end": 64.56
+  },
+  {
+   "word": "off",
+   "start": 64.56,
+   "end": 64.9
+  },
+  {
+   "word": "right",
+   "start": 64.9,
+   "end": 65.3
+  },
+  {
+   "word": "now...",
+   "start": 65.3,
+   "end": 66.18
+  },
+  {
+   "word": "would",
+   "start": 66.18,
+   "end": 66.3
+  },
+  {
+   "word": "you",
+   "start": 66.3,
+   "end": 66.46
+  },
+  {
+   "word": "hold",
+   "start": 66.46,
+   "end": 66.7
+  },
+  {
+   "word": "on,",
+   "start": 66.7,
+   "end": 67.08
+  },
+  {
+   "word": "or",
+   "start": 67.4,
+   "end": 67.54
+  },
+  {
+   "word": "jump?",
+   "start": 67.54,
+   "end": 67.86
+  }
+ ]
+}
