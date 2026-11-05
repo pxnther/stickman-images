@@ -1,0 +1,330 @@
+{
+ "duration": 28.7608125,
+ "words": [
+  {
+   "word": "Every",
+   "start": 0.0,
+   "end": 0.4
+  },
+  {
+   "word": "morning,",
+   "start": 0.4,
+   "end": 0.72
+  },
+  {
+   "word": "he",
+   "start": 1.28,
+   "end": 1.38
+  },
+  {
+   "word": "wins.",
+   "start": 1.38,
+   "end": 1.84
+  },
+  {
+   "word": "He",
+   "start": 2.46,
+   "end": 2.64
+  },
+  {
+   "word": "doesn't",
+   "start": 2.64,
+   "end": 2.94
+  },
+  {
+   "word": "look",
+   "start": 2.94,
+   "end": 3.14
+  },
+  {
+   "word": "like",
+   "start": 3.14,
+   "end": 3.34
+  },
+  {
+   "word": "an",
+   "start": 3.34,
+   "end": 3.54
+  },
+  {
+   "word": "enemy.",
+   "start": 3.54,
+   "end": 3.8
+  },
+  {
+   "word": "He",
+   "start": 4.48,
+   "end": 4.68
+  },
+  {
+   "word": "looks",
+   "start": 4.68,
+   "end": 4.86
+  },
+  {
+   "word": "like",
+   "start": 4.86,
+   "end": 5.12
+  },
+  {
+   "word": "you.",
+   "start": 5.12,
+   "end": 5.38
+  },
+  {
+   "word": "He",
+   "start": 5.38,
+   "end": 6.1
+  },
+  {
+   "word": "says,",
+   "start": 6.1,
+   "end": 6.46
+  },
+  {
+   "word": "five",
+   "start": 7.08,
+   "end": 7.22
+  },
+  {
+   "word": "more",
+   "start": 7.22,
+   "end": 7.44
+  },
+  {
+   "word": "minutes.",
+   "start": 7.44,
+   "end": 7.84
+  },
+  {
+   "word": "He",
+   "start": 8.4,
+   "end": 8.54
+  },
+  {
+   "word": "says,",
+   "start": 8.54,
+   "end": 8.9
+  },
+  {
+   "word": "start",
+   "start": 9.38,
+   "end": 9.56
+  },
+  {
+   "word": "Monday.",
+   "start": 9.56,
+   "end": 9.98
+  },
+  {
+   "word": "He",
+   "start": 10.62,
+   "end": 10.76
+  },
+  {
+   "word": "says,",
+   "start": 10.76,
+   "end": 11.12
+  },
+  {
+   "word": "you've",
+   "start": 11.62,
+   "end": 11.88
+  },
+  {
+   "word": "earned",
+   "start": 11.88,
+   "end": 12.06
+  },
+  {
+   "word": "a",
+   "start": 12.06,
+   "end": 12.26
+  },
+  {
+   "word": "rest.",
+   "start": 12.26,
+   "end": 12.62
+  },
+  {
+   "word": "And",
+   "start": 12.62,
+   "end": 13.32
+  },
+  {
+   "word": "every",
+   "start": 13.32,
+   "end": 13.68
+  },
+  {
+   "word": "time",
+   "start": 13.68,
+   "end": 13.96
+  },
+  {
+   "word": "you",
+   "start": 13.96,
+   "end": 14.12
+  },
+  {
+   "word": "listen,",
+   "start": 14.12,
+   "end": 14.5
+  },
+  {
+   "word": "he",
+   "start": 15.06,
+   "end": 15.18
+  },
+  {
+   "word": "gets",
+   "start": 15.18,
+   "end": 15.46
+  },
+  {
+   "word": "stronger.",
+   "start": 15.46,
+   "end": 16.06
+  },
+  {
+   "word": "One",
+   "start": 16.8,
+   "end": 16.92
+  },
+  {
+   "word": "snooze",
+   "start": 16.92,
+   "end": 17.54
+  },
+  {
+   "word": "becomes",
+   "start": 17.54,
+   "end": 17.86
+  },
+  {
+   "word": "a",
+   "start": 17.86,
+   "end": 18.08
+  },
+  {
+   "word": "week.",
+   "start": 18.08,
+   "end": 18.3
+  },
+  {
+   "word": "A",
+   "start": 18.86,
+   "end": 18.98
+  },
+  {
+   "word": "week",
+   "start": 18.98,
+   "end": 19.28
+  },
+  {
+   "word": "becomes",
+   "start": 19.28,
+   "end": 19.76
+  },
+  {
+   "word": "a",
+   "start": 19.76,
+   "end": 20.02
+  },
+  {
+   "word": "year.",
+   "start": 20.02,
+   "end": 20.3
+  },
+  {
+   "word": "So",
+   "start": 21.16,
+   "end": 21.26
+  },
+  {
+   "word": "tomorrow,",
+   "start": 21.26,
+   "end": 21.76
+  },
+  {
+   "word": "when",
+   "start": 22.34,
+   "end": 22.46
+  },
+  {
+   "word": "that",
+   "start": 22.46,
+   "end": 22.66
+  },
+  {
+   "word": "alarm",
+   "start": 22.66,
+   "end": 22.92
+  },
+  {
+   "word": "goes",
+   "start": 22.92,
+   "end": 23.18
+  },
+  {
+   "word": "off...",
+   "start": 23.18,
+   "end": 24.06
+  },
+  {
+   "word": "Don't",
+   "start": 24.06,
+   "end": 24.36
+  },
+  {
+   "word": "negotiate.",
+   "start": 24.36,
+   "end": 24.78
+  },
+  {
+   "word": "Don't",
+   "start": 25.32,
+   "end": 25.64
+  },
+  {
+   "word": "think.",
+   "start": 25.64,
+   "end": 25.88
+  },
+  {
+   "word": "Get",
+   "start": 26.42,
+   "end": 26.54
+  },
+  {
+   "word": "up",
+   "start": 26.54,
+   "end": 26.74
+  },
+  {
+   "word": "first.",
+   "start": 26.74,
+   "end": 27.16
+  },
+  {
+   "word": "Because",
+   "start": 27.64,
+   "end": 27.84
+  },
+  {
+   "word": "if",
+   "start": 27.84,
+   "end": 28.02
+  },
+  {
+   "word": "you",
+   "start": 28.02,
+   "end": 28.16
+  },
+  {
+   "word": "don't...",
+   "start": 28.16,
+   "end": 28.74
+  }
+ ]
+}
