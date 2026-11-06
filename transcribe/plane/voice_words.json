@@ -1,0 +1,650 @@
+{
+ "duration": 51.9575625,
+ "words": [
+  {
+   "word": "You",
+   "start": 0.0,
+   "end": 0.18
+  },
+  {
+   "word": "fall",
+   "start": 0.18,
+   "end": 0.46
+  },
+  {
+   "word": "out",
+   "start": 0.46,
+   "end": 0.62
+  },
+  {
+   "word": "of",
+   "start": 0.62,
+   "end": 0.7
+  },
+  {
+   "word": "a",
+   "start": 0.7,
+   "end": 0.92
+  },
+  {
+   "word": "plane,",
+   "start": 0.92,
+   "end": 1.22
+  },
+  {
+   "word": "ten",
+   "start": 1.6,
+   "end": 1.84
+  },
+  {
+   "word": "kilometres",
+   "start": 1.84,
+   "end": 2.28
+  },
+  {
+   "word": "up.",
+   "start": 2.28,
+   "end": 2.72
+  },
+  {
+   "word": "No",
+   "start": 3.12,
+   "end": 3.3
+  },
+  {
+   "word": "parachute.",
+   "start": 3.3,
+   "end": 3.84
+  },
+  {
+   "word": "It's",
+   "start": 4.36,
+   "end": 4.58
+  },
+  {
+   "word": "almost",
+   "start": 4.58,
+   "end": 4.9
+  },
+  {
+   "word": "minus",
+   "start": 4.9,
+   "end": 5.36
+  },
+  {
+   "word": "fifty",
+   "start": 5.36,
+   "end": 5.84
+  },
+  {
+   "word": "degrees.",
+   "start": 5.84,
+   "end": 6.36
+  },
+  {
+   "word": "The",
+   "start": 6.86,
+   "end": 6.98
+  },
+  {
+   "word": "air",
+   "start": 6.98,
+   "end": 7.18
+  },
+  {
+   "word": "is",
+   "start": 7.18,
+   "end": 7.44
+  },
+  {
+   "word": "so",
+   "start": 7.44,
+   "end": 7.62
+  },
+  {
+   "word": "thin,",
+   "start": 7.62,
+   "end": 8.0
+  },
+  {
+   "word": "you",
+   "start": 8.2,
+   "end": 8.32
+  },
+  {
+   "word": "pass",
+   "start": 8.32,
+   "end": 8.62
+  },
+  {
+   "word": "out",
+   "start": 8.62,
+   "end": 8.9
+  },
+  {
+   "word": "in",
+   "start": 8.9,
+   "end": 9.16
+  },
+  {
+   "word": "thirty",
+   "start": 9.16,
+   "end": 9.42
+  },
+  {
+   "word": "seconds.",
+   "start": 9.42,
+   "end": 9.94
+  },
+  {
+   "word": "Don't",
+   "start": 10.52,
+   "end": 10.82
+  },
+  {
+   "word": "panic.",
+   "start": 10.82,
+   "end": 11.1
+  },
+  {
+   "word": "Lower",
+   "start": 11.9,
+   "end": 12.08
+  },
+  {
+   "word": "down,",
+   "start": 12.08,
+   "end": 12.56
+  },
+  {
+   "word": "you",
+   "start": 13.08,
+   "end": 13.26
+  },
+  {
+   "word": "wake",
+   "start": 13.26,
+   "end": 13.44
+  },
+  {
+   "word": "up",
+   "start": 13.44,
+   "end": 13.62
+  },
+  {
+   "word": "again.",
+   "start": 13.62,
+   "end": 13.96
+  },
+  {
+   "word": "Now",
+   "start": 14.46,
+   "end": 14.64
+  },
+  {
+   "word": "you're",
+   "start": 14.64,
+   "end": 14.92
+  },
+  {
+   "word": "falling",
+   "start": 14.92,
+   "end": 15.2
+  },
+  {
+   "word": "at",
+   "start": 15.2,
+   "end": 15.52
+  },
+  {
+   "word": "two",
+   "start": 15.52,
+   "end": 15.7
+  },
+  {
+   "word": "hundred",
+   "start": 15.7,
+   "end": 16.2
+  },
+  {
+   "word": "kilometres",
+   "start": 16.2,
+   "end": 16.68
+  },
+  {
+   "word": "an",
+   "start": 16.68,
+   "end": 16.94
+  },
+  {
+   "word": "hour.",
+   "start": 16.94,
+   "end": 17.18
+  },
+  {
+   "word": "You",
+   "start": 17.56,
+   "end": 17.64
+  },
+  {
+   "word": "have",
+   "start": 17.64,
+   "end": 17.82
+  },
+  {
+   "word": "about",
+   "start": 17.82,
+   "end": 18.06
+  },
+  {
+   "word": "three",
+   "start": 18.06,
+   "end": 18.44
+  },
+  {
+   "word": "minutes",
+   "start": 18.44,
+   "end": 18.74
+  },
+  {
+   "word": "to",
+   "start": 18.74,
+   "end": 19.0
+  },
+  {
+   "word": "pick",
+   "start": 19.0,
+   "end": 19.14
+  },
+  {
+   "word": "where",
+   "start": 19.14,
+   "end": 19.32
+  },
+  {
+   "word": "you",
+   "start": 19.32,
+   "end": 19.5
+  },
+  {
+   "word": "land.",
+   "start": 19.5,
+   "end": 19.82
+  },
+  {
+   "word": "Not",
+   "start": 20.24,
+   "end": 20.5
+  },
+  {
+   "word": "water.",
+   "start": 20.5,
+   "end": 20.9
+  },
+  {
+   "word": "At",
+   "start": 21.44,
+   "end": 21.64
+  },
+  {
+   "word": "this",
+   "start": 21.64,
+   "end": 21.82
+  },
+  {
+   "word": "speed,",
+   "start": 21.82,
+   "end": 22.14
+  },
+  {
+   "word": "it's",
+   "start": 22.38,
+   "end": 22.62
+  },
+  {
+   "word": "almost",
+   "start": 22.62,
+   "end": 22.88
+  },
+  {
+   "word": "like",
+   "start": 22.88,
+   "end": 23.14
+  },
+  {
+   "word": "concrete.",
+   "start": 23.14,
+   "end": 23.7
+  },
+  {
+   "word": "Look",
+   "start": 23.7,
+   "end": 24.38
+  },
+  {
+   "word": "for",
+   "start": 24.38,
+   "end": 24.58
+  },
+  {
+   "word": "trees,",
+   "start": 24.58,
+   "end": 25.04
+  },
+  {
+   "word": "deep",
+   "start": 25.38,
+   "end": 25.54
+  },
+  {
+   "word": "snow,",
+   "start": 25.54,
+   "end": 25.94
+  },
+  {
+   "word": "or",
+   "start": 26.1,
+   "end": 26.26
+  },
+  {
+   "word": "a",
+   "start": 26.26,
+   "end": 26.4
+  },
+  {
+   "word": "steep",
+   "start": 26.4,
+   "end": 26.66
+  },
+  {
+   "word": "slope.",
+   "start": 26.66,
+   "end": 27.12
+  },
+  {
+   "word": "Spread",
+   "start": 27.64,
+   "end": 27.9
+  },
+  {
+   "word": "out",
+   "start": 27.9,
+   "end": 28.12
+  },
+  {
+   "word": "to",
+   "start": 28.12,
+   "end": 28.28
+  },
+  {
+   "word": "slow",
+   "start": 28.28,
+   "end": 28.58
+  },
+  {
+   "word": "down,",
+   "start": 28.58,
+   "end": 29.1
+  },
+  {
+   "word": "then",
+   "start": 29.28,
+   "end": 29.54
+  },
+  {
+   "word": "land",
+   "start": 29.54,
+   "end": 29.92
+  },
+  {
+   "word": "feet",
+   "start": 29.92,
+   "end": 30.26
+  },
+  {
+   "word": "first.",
+   "start": 30.26,
+   "end": 30.7
+  },
+  {
+   "word": "Sounds",
+   "start": 31.36,
+   "end": 31.54
+  },
+  {
+   "word": "impossible?",
+   "start": 31.54,
+   "end": 32.06
+  },
+  {
+   "word": "In",
+   "start": 32.56,
+   "end": 32.72
+  },
+  {
+   "word": "1972,",
+   "start": 32.72,
+   "end": 33.66
+  },
+  {
+   "word": "Vesna",
+   "start": 34.2,
+   "end": 34.46
+  },
+  {
+   "word": "Vulovi\u0107",
+   "start": 34.46,
+   "end": 34.96
+  },
+  {
+   "word": "fell",
+   "start": 34.96,
+   "end": 35.24
+  },
+  {
+   "word": "ten",
+   "start": 35.24,
+   "end": 35.6
+  },
+  {
+   "word": "kilometres",
+   "start": 35.6,
+   "end": 36.1
+  },
+  {
+   "word": "inside",
+   "start": 36.1,
+   "end": 37.06
+  },
+  {
+   "word": "a",
+   "start": 37.06,
+   "end": 37.34
+  },
+  {
+   "word": "piece",
+   "start": 37.34,
+   "end": 37.48
+  },
+  {
+   "word": "of",
+   "start": 37.48,
+   "end": 37.64
+  },
+  {
+   "word": "her",
+   "start": 37.64,
+   "end": 37.76
+  },
+  {
+   "word": "plane.",
+   "start": 37.76,
+   "end": 38.1
+  },
+  {
+   "word": "It",
+   "start": 38.58,
+   "end": 38.68
+  },
+  {
+   "word": "hit",
+   "start": 38.68,
+   "end": 38.82
+  },
+  {
+   "word": "a",
+   "start": 38.82,
+   "end": 39.1
+  },
+  {
+   "word": "snowy,",
+   "start": 39.1,
+   "end": 39.4
+  },
+  {
+   "word": "wooded",
+   "start": 39.66,
+   "end": 39.94
+  },
+  {
+   "word": "slope.",
+   "start": 39.94,
+   "end": 40.26
+  },
+  {
+   "word": "She",
+   "start": 40.68,
+   "end": 40.96
+  },
+  {
+   "word": "survived.",
+   "start": 40.96,
+   "end": 41.48
+  },
+  {
+   "word": "Juliane",
+   "start": 42.16,
+   "end": 42.68
+  },
+  {
+   "word": "Koepcke",
+   "start": 42.68,
+   "end": 43.02
+  },
+  {
+   "word": "fell",
+   "start": 43.02,
+   "end": 43.32
+  },
+  {
+   "word": "three",
+   "start": 43.32,
+   "end": 43.68
+  },
+  {
+   "word": "kilometres,",
+   "start": 43.68,
+   "end": 44.2
+  },
+  {
+   "word": "still",
+   "start": 44.56,
+   "end": 44.94
+  },
+  {
+   "word": "strapped",
+   "start": 44.94,
+   "end": 45.3
+  },
+  {
+   "word": "to",
+   "start": 45.3,
+   "end": 45.5
+  },
+  {
+   "word": "her",
+   "start": 45.5,
+   "end": 45.66
+  },
+  {
+   "word": "seat.",
+   "start": 45.66,
+   "end": 45.96
+  },
+  {
+   "word": "She",
+   "start": 46.38,
+   "end": 46.56
+  },
+  {
+   "word": "walked",
+   "start": 46.56,
+   "end": 46.88
+  },
+  {
+   "word": "out",
+   "start": 46.88,
+   "end": 47.06
+  },
+  {
+   "word": "of",
+   "start": 47.06,
+   "end": 47.18
+  },
+  {
+   "word": "the",
+   "start": 47.18,
+   "end": 47.32
+  },
+  {
+   "word": "Amazon",
+   "start": 47.32,
+   "end": 47.72
+  },
+  {
+   "word": "jungle",
+   "start": 47.72,
+   "end": 48.14
+  },
+  {
+   "word": "eleven",
+   "start": 48.14,
+   "end": 48.78
+  },
+  {
+   "word": "days",
+   "start": 48.78,
+   "end": 49.22
+  },
+  {
+   "word": "later.",
+   "start": 49.22,
+   "end": 49.66
+  },
+  {
+   "word": "So,",
+   "start": 50.12,
+   "end": 50.42
+  },
+  {
+   "word": "where",
+   "start": 50.98,
+   "end": 51.08
+  },
+  {
+   "word": "would",
+   "start": 51.08,
+   "end": 51.26
+  },
+  {
+   "word": "you",
+   "start": 51.26,
+   "end": 51.4
+  },
+  {
+   "word": "land?",
+   "start": 51.4,
+   "end": 51.72
+  }
+ ]
+}
