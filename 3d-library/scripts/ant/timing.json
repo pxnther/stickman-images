@@ -1,0 +1,695 @@
+{
+ "duration": 46.02,
+ "voice_end": 44.92,
+ "scenes": [
+  {
+   "i": 1,
+   "text": "You've shrunk to the size of an ant.",
+   "ws": 0.0,
+   "we": 2.06,
+   "start": 0.0,
+   "end": 2.48
+  },
+  {
+   "i": 2,
+   "text": "One drop of coffee is nearly a hundred times heavier than you.",
+   "ws": 2.6,
+   "we": 6.2,
+   "start": 2.48,
+   "end": 6.48
+  },
+  {
+   "i": 3,
+   "text": "So you jump off the table.",
+   "ws": 6.6,
+   "we": 8.26,
+   "start": 6.48,
+   "end": 8.56
+  },
+  {
+   "i": 4,
+   "text": "To you, that's a fall from a hundred-storey building.",
+   "ws": 8.68,
+   "we": 11.6,
+   "start": 8.56,
+   "end": 11.92
+  },
+  {
+   "i": 5,
+   "text": "You just walk away.",
+   "ws": 12.04,
+   "we": 13.8,
+   "start": 11.92,
+   "end": 14.28
+  },
+  {
+   "i": 6,
+   "text": "Then it starts to rain.",
+   "ws": 14.4,
+   "we": 15.88,
+   "start": 14.28,
+   "end": 16.03
+  },
+  {
+   "i": 7,
+   "text": "Every drop knocks you flat... and water is sticky now. It won't let go.",
+   "ws": 15.88,
+   "we": 21.52,
+   "start": 16.03,
+   "end": 21.96
+  },
+  {
+   "i": 8,
+   "text": "You look up, and everything is blurry.",
+   "ws": 22.08,
+   "we": 24.28,
+   "start": 21.96,
+   "end": 24.68
+  },
+  {
+   "i": 9,
+   "text": "Your pupils are thinner than a hair. Light can't focus.",
+   "ws": 24.8,
+   "we": 28.26,
+   "start": 24.68,
+   "end": 28.68
+  },
+  {
+   "i": 10,
+   "text": "You shout for help. Nobody hears you.",
+   "ws": 28.8,
+   "we": 32.34,
+   "start": 28.68,
+   "end": 32.66
+  },
+  {
+   "i": 11,
+   "text": "Your voice is too high for human ears.",
+   "ws": 32.78,
+   "we": 34.88,
+   "start": 32.66,
+   "end": 35.22
+  },
+  {
+   "i": 12,
+   "text": "And you're getting cold. Fast.",
+   "ws": 35.34,
+   "we": 37.34,
+   "start": 35.22,
+   "end": 37.82
+  },
+  {
+   "i": 13,
+   "text": "Nothing warm-blooded is this small, and now you know why.",
+   "ws": 37.94,
+   "we": 41.46,
+   "start": 37.82,
+   "end": 41.76
+  },
+  {
+   "i": 14,
+   "text": "So you climb back to your coffee... and look up.",
+   "ws": 41.88,
+   "we": 44.92,
+   "start": 41.76,
+   "end": 46.02
+  }
+ ],
+ "words": [
+  {
+   "word": "You've",
+   "start": 0.0,
+   "end": 0.48
+  },
+  {
+   "word": "shrunk",
+   "start": 0.48,
+   "end": 0.64
+  },
+  {
+   "word": "to",
+   "start": 0.64,
+   "end": 0.88
+  },
+  {
+   "word": "the",
+   "start": 0.88,
+   "end": 1.06
+  },
+  {
+   "word": "size",
+   "start": 1.06,
+   "end": 1.32
+  },
+  {
+   "word": "of",
+   "start": 1.32,
+   "end": 1.48
+  },
+  {
+   "word": "an",
+   "start": 1.48,
+   "end": 1.74
+  },
+  {
+   "word": "ant.",
+   "start": 1.74,
+   "end": 2.06
+  },
+  {
+   "word": "One",
+   "start": 2.6,
+   "end": 2.9
+  },
+  {
+   "word": "drop",
+   "start": 2.9,
+   "end": 3.12
+  },
+  {
+   "word": "of",
+   "start": 3.12,
+   "end": 3.42
+  },
+  {
+   "word": "coffee",
+   "start": 3.42,
+   "end": 3.68
+  },
+  {
+   "word": "is",
+   "start": 3.68,
+   "end": 3.94
+  },
+  {
+   "word": "nearly",
+   "start": 3.94,
+   "end": 4.26
+  },
+  {
+   "word": "a",
+   "start": 4.26,
+   "end": 4.56
+  },
+  {
+   "word": "hundred",
+   "start": 4.56,
+   "end": 4.86
+  },
+  {
+   "word": "times",
+   "start": 4.86,
+   "end": 5.3
+  },
+  {
+   "word": "heavier",
+   "start": 5.3,
+   "end": 5.7
+  },
+  {
+   "word": "than",
+   "start": 5.7,
+   "end": 5.94
+  },
+  {
+   "word": "you.",
+   "start": 5.94,
+   "end": 6.2
+  },
+  {
+   "word": "So",
+   "start": 6.6,
+   "end": 6.9
+  },
+  {
+   "word": "you",
+   "start": 6.9,
+   "end": 7.26
+  },
+  {
+   "word": "jump",
+   "start": 7.26,
+   "end": 7.56
+  },
+  {
+   "word": "off",
+   "start": 7.56,
+   "end": 7.78
+  },
+  {
+   "word": "the",
+   "start": 7.78,
+   "end": 7.94
+  },
+  {
+   "word": "table.",
+   "start": 7.94,
+   "end": 8.26
+  },
+  {
+   "word": "To",
+   "start": 8.68,
+   "end": 8.88
+  },
+  {
+   "word": "you,",
+   "start": 8.88,
+   "end": 9.18
+  },
+  {
+   "word": "that's",
+   "start": 9.42,
+   "end": 9.68
+  },
+  {
+   "word": "a",
+   "start": 9.68,
+   "end": 9.86
+  },
+  {
+   "word": "fall",
+   "start": 9.86,
+   "end": 10.02
+  },
+  {
+   "word": "from",
+   "start": 10.02,
+   "end": 10.24
+  },
+  {
+   "word": "a",
+   "start": 10.24,
+   "end": 10.52
+  },
+  {
+   "word": "hundred-storey",
+   "start": 10.52,
+   "end": 11.26
+  },
+  {
+   "word": "building.",
+   "start": 11.26,
+   "end": 11.6
+  },
+  {
+   "word": "You",
+   "start": 12.04,
+   "end": 12.24
+  },
+  {
+   "word": "just",
+   "start": 12.24,
+   "end": 12.66
+  },
+  {
+   "word": "walk",
+   "start": 12.66,
+   "end": 13.36
+  },
+  {
+   "word": "away.",
+   "start": 13.36,
+   "end": 13.8
+  },
+  {
+   "word": "Then",
+   "start": 14.4,
+   "end": 14.66
+  },
+  {
+   "word": "it",
+   "start": 14.66,
+   "end": 15.06
+  },
+  {
+   "word": "starts",
+   "start": 15.06,
+   "end": 15.34
+  },
+  {
+   "word": "to",
+   "start": 15.34,
+   "end": 15.66
+  },
+  {
+   "word": "rain.",
+   "start": 15.66,
+   "end": 15.88
+  },
+  {
+   "word": "Every",
+   "start": 15.88,
+   "end": 16.76
+  },
+  {
+   "word": "drop",
+   "start": 16.76,
+   "end": 17.26
+  },
+  {
+   "word": "knocks",
+   "start": 17.26,
+   "end": 17.64
+  },
+  {
+   "word": "you",
+   "start": 17.64,
+   "end": 17.84
+  },
+  {
+   "word": "flat...",
+   "start": 17.84,
+   "end": 18.76
+  },
+  {
+   "word": "and",
+   "start": 18.76,
+   "end": 18.94
+  },
+  {
+   "word": "water",
+   "start": 18.94,
+   "end": 19.22
+  },
+  {
+   "word": "is",
+   "start": 19.22,
+   "end": 19.48
+  },
+  {
+   "word": "sticky",
+   "start": 19.48,
+   "end": 19.84
+  },
+  {
+   "word": "now.",
+   "start": 19.84,
+   "end": 20.22
+  },
+  {
+   "word": "It",
+   "start": 20.52,
+   "end": 20.76
+  },
+  {
+   "word": "won't",
+   "start": 20.76,
+   "end": 21.0
+  },
+  {
+   "word": "let",
+   "start": 21.0,
+   "end": 21.16
+  },
+  {
+   "word": "go.",
+   "start": 21.16,
+   "end": 21.52
+  },
+  {
+   "word": "You",
+   "start": 22.08,
+   "end": 22.22
+  },
+  {
+   "word": "look",
+   "start": 22.22,
+   "end": 22.4
+  },
+  {
+   "word": "up,",
+   "start": 22.4,
+   "end": 22.72
+  },
+  {
+   "word": "and",
+   "start": 22.92,
+   "end": 23.08
+  },
+  {
+   "word": "everything",
+   "start": 23.08,
+   "end": 23.58
+  },
+  {
+   "word": "is",
+   "start": 23.58,
+   "end": 23.82
+  },
+  {
+   "word": "blurry.",
+   "start": 23.82,
+   "end": 24.28
+  },
+  {
+   "word": "Your",
+   "start": 24.8,
+   "end": 24.98
+  },
+  {
+   "word": "pupils",
+   "start": 24.98,
+   "end": 25.38
+  },
+  {
+   "word": "are",
+   "start": 25.38,
+   "end": 25.62
+  },
+  {
+   "word": "thinner",
+   "start": 25.62,
+   "end": 25.94
+  },
+  {
+   "word": "than",
+   "start": 25.94,
+   "end": 26.14
+  },
+  {
+   "word": "a",
+   "start": 26.14,
+   "end": 26.38
+  },
+  {
+   "word": "hair.",
+   "start": 26.38,
+   "end": 26.62
+  },
+  {
+   "word": "Light",
+   "start": 27.22,
+   "end": 27.38
+  },
+  {
+   "word": "can't",
+   "start": 27.38,
+   "end": 27.88
+  },
+  {
+   "word": "focus.",
+   "start": 27.88,
+   "end": 28.26
+  },
+  {
+   "word": "You",
+   "start": 28.8,
+   "end": 28.98
+  },
+  {
+   "word": "shout",
+   "start": 28.98,
+   "end": 29.26
+  },
+  {
+   "word": "for",
+   "start": 29.26,
+   "end": 29.56
+  },
+  {
+   "word": "help.",
+   "start": 29.56,
+   "end": 29.84
+  },
+  {
+   "word": "Nobody",
+   "start": 31.18,
+   "end": 31.64
+  },
+  {
+   "word": "hears",
+   "start": 31.64,
+   "end": 31.98
+  },
+  {
+   "word": "you.",
+   "start": 31.98,
+   "end": 32.34
+  },
+  {
+   "word": "Your",
+   "start": 32.78,
+   "end": 32.98
+  },
+  {
+   "word": "voice",
+   "start": 32.98,
+   "end": 33.24
+  },
+  {
+   "word": "is",
+   "start": 33.24,
+   "end": 33.46
+  },
+  {
+   "word": "too",
+   "start": 33.46,
+   "end": 33.7
+  },
+  {
+   "word": "high",
+   "start": 33.7,
+   "end": 34.02
+  },
+  {
+   "word": "for",
+   "start": 34.02,
+   "end": 34.28
+  },
+  {
+   "word": "human",
+   "start": 34.28,
+   "end": 34.52
+  },
+  {
+   "word": "ears.",
+   "start": 34.52,
+   "end": 34.88
+  },
+  {
+   "word": "And",
+   "start": 35.34,
+   "end": 35.58
+  },
+  {
+   "word": "you're",
+   "start": 35.58,
+   "end": 35.72
+  },
+  {
+   "word": "getting",
+   "start": 35.72,
+   "end": 35.92
+  },
+  {
+   "word": "cold.",
+   "start": 35.92,
+   "end": 36.44
+  },
+  {
+   "word": "Fast.",
+   "start": 37.06,
+   "end": 37.34
+  },
+  {
+   "word": "Nothing",
+   "start": 37.94,
+   "end": 38.34
+  },
+  {
+   "word": "warm-blooded",
+   "start": 38.34,
+   "end": 38.98
+  },
+  {
+   "word": "is",
+   "start": 38.98,
+   "end": 39.28
+  },
+  {
+   "word": "this",
+   "start": 39.28,
+   "end": 39.44
+  },
+  {
+   "word": "small,",
+   "start": 39.44,
+   "end": 39.88
+  },
+  {
+   "word": "and",
+   "start": 40.12,
+   "end": 40.52
+  },
+  {
+   "word": "now",
+   "start": 40.52,
+   "end": 40.7
+  },
+  {
+   "word": "you",
+   "start": 40.7,
+   "end": 40.86
+  },
+  {
+   "word": "know",
+   "start": 40.86,
+   "end": 41.02
+  },
+  {
+   "word": "why.",
+   "start": 41.02,
+   "end": 41.46
+  },
+  {
+   "word": "So",
+   "start": 41.88,
+   "end": 42.2
+  },
+  {
+   "word": "you",
+   "start": 42.2,
+   "end": 42.54
+  },
+  {
+   "word": "climb",
+   "start": 42.54,
+   "end": 42.82
+  },
+  {
+   "word": "back",
+   "start": 42.82,
+   "end": 43.06
+  },
+  {
+   "word": "to",
+   "start": 43.06,
+   "end": 43.22
+  },
+  {
+   "word": "your",
+   "start": 43.22,
+   "end": 43.36
+  },
+  {
+   "word": "coffee...",
+   "start": 43.36,
+   "end": 44.16
+  },
+  {
+   "word": "and",
+   "start": 44.16,
+   "end": 44.38
+  },
+  {
+   "word": "look",
+   "start": 44.38,
+   "end": 44.58
+  },
+  {
+   "word": "up.",
+   "start": 44.58,
+   "end": 44.92
+  }
+ ]
+}
