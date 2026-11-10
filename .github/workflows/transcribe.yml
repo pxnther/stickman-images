@@ -27,7 +27,7 @@ jobs:
           pip install -q faster-whisper
           pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install -q whisperx || echo 'whisperx install failed, using whisper timings'
-          files=$(git diff --name-only HEAD~1 HEAD | grep -E '^transcribe/.*\.(mp3|wav|m4a)$' || true)
+          files=$(git diff --name-only --diff-filter=AMR HEAD~1 HEAD | grep -E '^transcribe/.*\.(mp3|wav|m4a)$' || true)
           [ -z "$files" ] && exit 0
           python tools/transcribe.py $files
           git config user.name github-actions
