@@ -1,0 +1,32 @@
+1
+00:00:00,080 --> 00:00:01,144
+You've been thrown out of a
+
+2
+00:00:01,224 --> 00:00:02,710
+spaceship with no suit.
+
+3
+00:00:03,252 --> 00:00:04,296
+You don't explode.
+
+4
+00:00:04,677 --> 00:00:06,100
+Your skin holds you together.
+
+5
+00:00:06,561 --> 00:00:07,641
+But don't hold your breath.
+
+6
+00:00:08,042 --> 00:00:09,283
+The air in your lungs would
+
+7
+00:00:09,343 --> 00:00:10,203
+tear them apart.
+
+8
+00:00:10,764 --> 00:00:11,304
+Breathe out...
+

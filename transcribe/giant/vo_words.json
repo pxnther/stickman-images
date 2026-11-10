@@ -1,0 +1,151 @@
+{
+ "duration": 35.709375,
+ "aligner": "whisperx",
+ "words": [
+  {
+   "word": "You've",
+   "start": 0.08,
+   "end": 0.301
+  },
+  {
+   "word": "grown",
+   "start": 0.321,
+   "end": 0.582
+  },
+  {
+   "word": "a",
+   "start": 0.622,
+   "end": 0.662
+  },
+  {
+   "word": "hundred",
+   "start": 0.843,
+   "end": 1.204
+  },
+  {
+   "word": "times",
+   "start": 1.284,
+   "end": 1.585
+  },
+  {
+   "word": "taller.",
+   "start": 1.705,
+   "end": 2.167
+  },
+  {
+   "word": "You",
+   "start": 2.668,
+   "end": 2.789
+  },
+  {
+   "word": "now",
+   "start": 2.849,
+   "end": 3.049
+  },
+  {
+   "word": "weigh",
+   "start": 3.09,
+   "end": 3.35
+  },
+  {
+   "word": "seventy",
+   "start": 3.451,
+   "end": 3.892
+  },
+  {
+   "word": "thousand",
+   "start": 4.032,
+   "end": 4.534
+  },
+  {
+   "word": "tonnes.",
+   "start": 4.614,
+   "end": 5.015
+  },
+  {
+   "word": "More",
+   "start": 5.477,
+   "end": 5.657
+  },
+  {
+   "word": "than",
+   "start": 5.698,
+   "end": 5.838
+  },
+  {
+   "word": "the",
+   "start": 5.858,
+   "end": 5.958
+  },
+  {
+   "word": "Titanic.",
+   "start": 5.978,
+   "end": 6.5
+  },
+  {
+   "word": "More",
+   "start": 6.5,
+   "end": 6.58
+  },
+  {
+   "word": "than",
+   "start": 6.6,
+   "end": 6.7
+  },
+  {
+   "word": "the",
+   "start": 6.74,
+   "end": 6.86
+  },
+  {
+   "word": "Titanic.",
+   "start": 6.88,
+   "end": 7.08
+  },
+  {
+   "word": "But",
+   "start": 7.1,
+   "end": 7.18
+  },
+  {
+   "word": "your",
+   "start": 7.2,
+   "end": 7.361
+  },
+  {
+   "word": "bones",
+   "start": 7.421,
+   "end": 7.841
+  },
+  {
+   "word": "only",
+   "start": 8.001,
+   "end": 8.201
+  },
+  {
+   "word": "got",
+   "start": 8.241,
+   "end": 8.441
+  },
+  {
+   "word": "ten",
+   "start": 8.521,
+   "end": 8.762
+  },
+  {
+   "word": "thousand",
+   "start": 8.822,
+   "end": 9.182
+  },
+  {
+   "word": "times",
+   "start": 9.222,
+   "end": 9.482
+  },
+  {
+   "word": "stronger.",
+   "start": 9.542,
+   "end": 9.962
+  }
+ ]
+}
