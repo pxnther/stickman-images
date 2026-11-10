@@ -15,11 +15,25 @@ for path in sys.argv[1:]:
         prompt = open(sp, encoding="utf-8").read()[-800:]
     segs, info = model.transcribe(path, language="en", word_timestamps=True, beam_size=5,
                                   initial_prompt=prompt, vad_filter=False)
+    segs = list(segs)
     words = []
     for s in segs:
         for w in s.words:
             words.append({"word": w.word.strip(), "start": round(w.start, 3), "end": round(w.end, 3)})
-    json.dump({"duration": info.duration, "words": words}, open(base + "_words.json", "w"), indent=1)
+    aligner = "faster-whisper"
+    try:   # WhisperX forced alignment (wav2vec2) for tighter word timings; falls back to whisper's own times
+        import whisperx
+        audio = whisperx.load_audio(path)
+        model_a, meta = whisperx.load_align_model(language_code="en", device="cpu")
+        res = whisperx.align([{"start": s.start, "end": s.end, "text": s.text} for s in segs], model_a, meta, audio, "cpu",
+                             return_char_alignments=False)
+        wx = [{"word": w["word"].strip(), "start": round(w["start"], 3), "end": round(w["end"], 3)}
+              for seg in res["segments"] for w in seg.get("words", []) if "start" in w and "end" in w]
+        if len(wx) >= 0.9 * len(words):
+            words, aligner = wx, "whisperx"
+    except Exception as e:
+        print("whisperx alignment skipped:", e)
+    json.dump({"duration": info.duration, "aligner": aligner, "words": words}, open(base + "_words.json", "w"), indent=1)
     # captions: up to 6 words, break at sentence ends or gaps over 0.35 s
     caps, cur = [], []
     for i, w in enumerate(words):

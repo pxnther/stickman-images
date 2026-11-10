@@ -20,11 +20,13 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: whisper-medium-en-v1
+          key: whisper-medium-en-wx-v1
       - name: Transcribe new audio
         run: |
           set -e
           pip install -q faster-whisper
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q whisperx || echo 'whisperx install failed, using whisper timings'
           files=$(git diff --name-only HEAD~1 HEAD | grep -E '^transcribe/.*\.(mp3|wav|m4a)$' || true)
           [ -z "$files" ] && exit 0
           python tools/transcribe.py $files
