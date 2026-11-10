@@ -1,0 +1,501 @@
+{
+ "duration": 38.609,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "You",
+   "start": 0.1,
+   "end": 0.2
+  },
+  {
+   "word": "can",
+   "start": 0.24,
+   "end": 0.36
+  },
+  {
+   "word": "teleport",
+   "start": 0.42,
+   "end": 0.94
+  },
+  {
+   "word": "anywhere",
+   "start": 1.16,
+   "end": 1.56
+  },
+  {
+   "word": "on",
+   "start": 1.66,
+   "end": 1.74
+  },
+  {
+   "word": "Earth.",
+   "start": 1.84,
+   "end": 2.04
+  },
+  {
+   "word": "So",
+   "start": 2.621,
+   "end": 2.841
+  },
+  {
+   "word": "you",
+   "start": 3.061,
+   "end": 3.221
+  },
+  {
+   "word": "jump",
+   "start": 3.241,
+   "end": 3.441
+  },
+  {
+   "word": "from",
+   "start": 3.481,
+   "end": 3.601
+  },
+  {
+   "word": "Los",
+   "start": 3.641,
+   "end": 3.881
+  },
+  {
+   "word": "Angeles",
+   "start": 3.961,
+   "end": 4.341
+  },
+  {
+   "word": "to",
+   "start": 4.441,
+   "end": 4.541
+  },
+  {
+   "word": "London...",
+   "start": 4.601,
+   "end": 4.961
+  },
+  {
+   "word": "and",
+   "start": 5.481,
+   "end": 5.601
+  },
+  {
+   "word": "slam",
+   "start": 5.741,
+   "end": 6.181
+  },
+  {
+   "word": "sideways",
+   "start": 6.281,
+   "end": 6.782
+  },
+  {
+   "word": "into",
+   "start": 6.842,
+   "end": 7.042
+  },
+  {
+   "word": "a",
+   "start": 7.102,
+   "end": 7.142
+  },
+  {
+   "word": "wall.",
+   "start": 7.222,
+   "end": 7.602
+  },
+  {
+   "word": "Earth",
+   "start": 8.162,
+   "end": 8.422
+  },
+  {
+   "word": "spins.",
+   "start": 8.522,
+   "end": 8.982
+  },
+  {
+   "word": "LA",
+   "start": 9.702,
+   "end": 9.902
+  },
+  {
+   "word": "moves",
+   "start": 9.962,
+   "end": 10.222
+  },
+  {
+   "word": "at",
+   "start": 10.302,
+   "end": 10.362
+  },
+  {
+   "word": "about",
+   "start": 10.402,
+   "end": 10.602
+  },
+  {
+   "word": "fourteen",
+   "start": 10.702,
+   "end": 11.123
+  },
+  {
+   "word": "hundred",
+   "start": 11.183,
+   "end": 11.423
+  },
+  {
+   "word": "kilometres",
+   "start": 11.463,
+   "end": 11.983
+  },
+  {
+   "word": "an",
+   "start": 12.023,
+   "end": 12.083
+  },
+  {
+   "word": "hour.",
+   "start": 12.123,
+   "end": 12.383
+  },
+  {
+   "word": "London",
+   "start": 12.883,
+   "end": 13.223
+  },
+  {
+   "word": "moves",
+   "start": 13.283,
+   "end": 13.543
+  },
+  {
+   "word": "slower...",
+   "start": 13.643,
+   "end": 14.063
+  },
+  {
+   "word": "in",
+   "start": 14.543,
+   "end": 14.623
+  },
+  {
+   "word": "a",
+   "start": 14.663,
+   "end": 14.683
+  },
+  {
+   "word": "different",
+   "start": 14.803,
+   "end": 15.124
+  },
+  {
+   "word": "direction.",
+   "start": 15.164,
+   "end": 15.664
+  },
+  {
+   "word": "You",
+   "start": 16.144,
+   "end": 16.304
+  },
+  {
+   "word": "arrive",
+   "start": 16.344,
+   "end": 16.744
+  },
+  {
+   "word": "still",
+   "start": 16.844,
+   "end": 17.124
+  },
+  {
+   "word": "carrying",
+   "start": 17.184,
+   "end": 17.664
+  },
+  {
+   "word": "LA's",
+   "start": 17.844,
+   "end": 18.104
+  },
+  {
+   "word": "speed.",
+   "start": 18.184,
+   "end": 18.564
+  },
+  {
+   "word": "Over",
+   "start": 18.964,
+   "end": 19.164
+  },
+  {
+   "word": "two",
+   "start": 19.284,
+   "end": 19.505
+  },
+  {
+   "word": "thousand",
+   "start": 19.665,
+   "end": 20.145
+  },
+  {
+   "word": "kilometres",
+   "start": 20.185,
+   "end": 20.685
+  },
+  {
+   "word": "an",
+   "start": 20.725,
+   "end": 20.785
+  },
+  {
+   "word": "hour,",
+   "start": 20.825,
+   "end": 21.085
+  },
+  {
+   "word": "sideways.",
+   "start": 21.505,
+   "end": 22.105
+  },
+  {
+   "word": "And",
+   "start": 22.525,
+   "end": 22.605
+  },
+  {
+   "word": "appearing",
+   "start": 22.665,
+   "end": 23.045
+  },
+  {
+   "word": "where",
+   "start": 23.085,
+   "end": 23.285
+  },
+  {
+   "word": "air",
+   "start": 23.425,
+   "end": 23.585
+  },
+  {
+   "word": "already",
+   "start": 23.686,
+   "end": 24.046
+  },
+  {
+   "word": "is",
+   "start": 24.186,
+   "end": 24.326
+  },
+  {
+   "word": "shoves",
+   "start": 24.666,
+   "end": 24.946
+  },
+  {
+   "word": "it",
+   "start": 25.006,
+   "end": 25.066
+  },
+  {
+   "word": "aside",
+   "start": 25.106,
+   "end": 25.506
+  },
+  {
+   "word": "with",
+   "start": 25.546,
+   "end": 25.666
+  },
+  {
+   "word": "a",
+   "start": 25.706,
+   "end": 25.746
+  },
+  {
+   "word": "thunderclap.",
+   "start": 25.886,
+   "end": 26.526
+  },
+  {
+   "word": "Try",
+   "start": 27.006,
+   "end": 27.206
+  },
+  {
+   "word": "the",
+   "start": 27.226,
+   "end": 27.306
+  },
+  {
+   "word": "top",
+   "start": 27.326,
+   "end": 27.526
+  },
+  {
+   "word": "of",
+   "start": 27.566,
+   "end": 27.626
+  },
+  {
+   "word": "Everest",
+   "start": 27.766,
+   "end": 28.127
+  },
+  {
+   "word": "instead?",
+   "start": 28.167,
+   "end": 28.567
+  },
+  {
+   "word": "The",
+   "start": 28.907,
+   "end": 29.027
+  },
+  {
+   "word": "air",
+   "start": 29.127,
+   "end": 29.247
+  },
+  {
+   "word": "is",
+   "start": 29.307,
+   "end": 29.387
+  },
+  {
+   "word": "so",
+   "start": 29.507,
+   "end": 29.707
+  },
+  {
+   "word": "thin",
+   "start": 29.787,
+   "end": 30.047
+  },
+  {
+   "word": "you'd",
+   "start": 30.187,
+   "end": 30.367
+  },
+  {
+   "word": "pass",
+   "start": 30.427,
+   "end": 30.727
+  },
+  {
+   "word": "out",
+   "start": 30.807,
+   "end": 30.927
+  },
+  {
+   "word": "in",
+   "start": 30.967,
+   "end": 31.027
+  },
+  {
+   "word": "about",
+   "start": 31.087,
+   "end": 31.267
+  },
+  {
+   "word": "two",
+   "start": 31.367,
+   "end": 31.547
+  },
+  {
+   "word": "minutes.",
+   "start": 31.607,
+   "end": 31.907
+  },
+  {
+   "word": "The",
+   "start": 32.348,
+   "end": 32.468
+  },
+  {
+   "word": "only",
+   "start": 32.568,
+   "end": 32.808
+  },
+  {
+   "word": "safe",
+   "start": 32.908,
+   "end": 33.188
+  },
+  {
+   "word": "jumps",
+   "start": 33.248,
+   "end": 33.528
+  },
+  {
+   "word": "are",
+   "start": 33.688,
+   "end": 33.788
+  },
+  {
+   "word": "short",
+   "start": 33.868,
+   "end": 34.108
+  },
+  {
+   "word": "ones.",
+   "start": 34.208,
+   "end": 34.388
+  },
+  {
+   "word": "So",
+   "start": 34.948,
+   "end": 35.128
+  },
+  {
+   "word": "you",
+   "start": 35.368,
+   "end": 35.508
+  },
+  {
+   "word": "grab",
+   "start": 35.548,
+   "end": 35.768
+  },
+  {
+   "word": "your",
+   "start": 35.788,
+   "end": 35.908
+  },
+  {
+   "word": "coffee",
+   "start": 35.928,
+   "end": 36.248
+  },
+  {
+   "word": "in",
+   "start": 36.288,
+   "end": 36.368
+  },
+  {
+   "word": "LA...",
+   "start": 36.509,
+   "end": 36.789
+  },
+  {
+   "word": "and",
+   "start": 37.129,
+   "end": 37.229
+  },
+  {
+   "word": "teleport",
+   "start": 37.329,
+   "end": 37.829
+  },
+  {
+   "word": "to",
+   "start": 37.869,
+   "end": 37.969
+  },
+  {
+   "word": "London.",
+   "start": 38.029,
+   "end": 38.329
+  }
+ ]
+}

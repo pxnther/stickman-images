@@ -1,0 +1,491 @@
+{
+ "duration": 35.709375,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "You've",
+   "start": 0.08,
+   "end": 0.3
+  },
+  {
+   "word": "grown",
+   "start": 0.32,
+   "end": 0.58
+  },
+  {
+   "word": "a",
+   "start": 0.62,
+   "end": 0.66
+  },
+  {
+   "word": "hundred",
+   "start": 0.84,
+   "end": 1.2
+  },
+  {
+   "word": "times",
+   "start": 1.28,
+   "end": 1.58
+  },
+  {
+   "word": "taller.",
+   "start": 1.7,
+   "end": 2.161
+  },
+  {
+   "word": "You",
+   "start": 2.661,
+   "end": 2.801
+  },
+  {
+   "word": "now",
+   "start": 2.841,
+   "end": 3.021
+  },
+  {
+   "word": "weigh",
+   "start": 3.081,
+   "end": 3.341
+  },
+  {
+   "word": "seventy",
+   "start": 3.461,
+   "end": 3.881
+  },
+  {
+   "word": "thousand",
+   "start": 4.021,
+   "end": 4.521
+  },
+  {
+   "word": "tonnes.",
+   "start": 4.601,
+   "end": 5.001
+  },
+  {
+   "word": "More",
+   "start": 5.481,
+   "end": 5.641
+  },
+  {
+   "word": "than",
+   "start": 5.681,
+   "end": 5.822
+  },
+  {
+   "word": "the",
+   "start": 5.842,
+   "end": 5.922
+  },
+  {
+   "word": "Titanic.",
+   "start": 5.962,
+   "end": 6.602
+  },
+  {
+   "word": "But",
+   "start": 7.062,
+   "end": 7.182
+  },
+  {
+   "word": "your",
+   "start": 7.202,
+   "end": 7.362
+  },
+  {
+   "word": "bones",
+   "start": 7.422,
+   "end": 7.842
+  },
+  {
+   "word": "only",
+   "start": 8.002,
+   "end": 8.202
+  },
+  {
+   "word": "got",
+   "start": 8.242,
+   "end": 8.442
+  },
+  {
+   "word": "ten",
+   "start": 8.542,
+   "end": 8.762
+  },
+  {
+   "word": "thousand",
+   "start": 8.822,
+   "end": 9.182
+  },
+  {
+   "word": "times",
+   "start": 9.222,
+   "end": 9.482
+  },
+  {
+   "word": "stronger.",
+   "start": 9.543,
+   "end": 10.003
+  },
+  {
+   "word": "So",
+   "start": 10.583,
+   "end": 10.703
+  },
+  {
+   "word": "your",
+   "start": 10.723,
+   "end": 10.883
+  },
+  {
+   "word": "first",
+   "start": 10.943,
+   "end": 11.183
+  },
+  {
+   "word": "step...",
+   "start": 11.223,
+   "end": 11.523
+  },
+  {
+   "word": "snaps",
+   "start": 12.803,
+   "end": 13.163
+  },
+  {
+   "word": "your",
+   "start": 13.203,
+   "end": 13.344
+  },
+  {
+   "word": "legs.",
+   "start": 13.404,
+   "end": 13.744
+  },
+  {
+   "word": "If",
+   "start": 14.384,
+   "end": 14.464
+  },
+  {
+   "word": "you",
+   "start": 14.484,
+   "end": 14.644
+  },
+  {
+   "word": "fall,",
+   "start": 14.704,
+   "end": 15.024
+  },
+  {
+   "word": "your",
+   "start": 15.284,
+   "end": 15.464
+  },
+  {
+   "word": "head",
+   "start": 15.524,
+   "end": 15.724
+  },
+  {
+   "word": "hits",
+   "start": 15.764,
+   "end": 15.964
+  },
+  {
+   "word": "the",
+   "start": 16.024,
+   "end": 16.104
+  },
+  {
+   "word": "ground",
+   "start": 16.144,
+   "end": 16.444
+  },
+  {
+   "word": "as",
+   "start": 16.544,
+   "end": 16.624
+  },
+  {
+   "word": "fast",
+   "start": 16.784,
+   "end": 17.104
+  },
+  {
+   "word": "as",
+   "start": 17.185,
+   "end": 17.265
+  },
+  {
+   "word": "a",
+   "start": 17.305,
+   "end": 17.365
+  },
+  {
+   "word": "race",
+   "start": 17.465,
+   "end": 17.705
+  },
+  {
+   "word": "car.",
+   "start": 17.745,
+   "end": 17.985
+  },
+  {
+   "word": "Your",
+   "start": 18.425,
+   "end": 18.605
+  },
+  {
+   "word": "heart",
+   "start": 18.665,
+   "end": 18.885
+  },
+  {
+   "word": "can't",
+   "start": 18.965,
+   "end": 19.205
+  },
+  {
+   "word": "push",
+   "start": 19.245,
+   "end": 19.485
+  },
+  {
+   "word": "blood",
+   "start": 19.545,
+   "end": 19.805
+  },
+  {
+   "word": "forty",
+   "start": 19.945,
+   "end": 20.225
+  },
+  {
+   "word": "metres",
+   "start": 20.285,
+   "end": 20.585
+  },
+  {
+   "word": "up",
+   "start": 20.665,
+   "end": 20.725
+  },
+  {
+   "word": "to",
+   "start": 20.765,
+   "end": 20.825
+  },
+  {
+   "word": "your",
+   "start": 20.865,
+   "end": 20.986
+  },
+  {
+   "word": "brain.",
+   "start": 21.046,
+   "end": 21.346
+  },
+  {
+   "word": "You'd",
+   "start": 21.766,
+   "end": 21.946
+  },
+  {
+   "word": "black",
+   "start": 21.986,
+   "end": 22.266
+  },
+  {
+   "word": "out.",
+   "start": 22.386,
+   "end": 22.526
+  },
+  {
+   "word": "You'd",
+   "start": 22.966,
+   "end": 23.126
+  },
+  {
+   "word": "overheat",
+   "start": 23.166,
+   "end": 23.666
+  },
+  {
+   "word": "too.",
+   "start": 23.726,
+   "end": 23.986
+  },
+  {
+   "word": "A",
+   "start": 24.446,
+   "end": 24.506
+  },
+  {
+   "word": "million",
+   "start": 24.646,
+   "end": 25.067
+  },
+  {
+   "word": "times",
+   "start": 25.127,
+   "end": 25.427
+  },
+  {
+   "word": "more",
+   "start": 25.507,
+   "end": 25.667
+  },
+  {
+   "word": "heat...",
+   "start": 25.747,
+   "end": 26.007
+  },
+  {
+   "word": "with",
+   "start": 26.387,
+   "end": 26.527
+  },
+  {
+   "word": "only",
+   "start": 26.567,
+   "end": 26.767
+  },
+  {
+   "word": "ten",
+   "start": 26.867,
+   "end": 27.087
+  },
+  {
+   "word": "thousand",
+   "start": 27.147,
+   "end": 27.487
+  },
+  {
+   "word": "times",
+   "start": 27.547,
+   "end": 27.807
+  },
+  {
+   "word": "more",
+   "start": 27.867,
+   "end": 28.027
+  },
+  {
+   "word": "skin.",
+   "start": 28.107,
+   "end": 28.447
+  },
+  {
+   "word": "You",
+   "start": 28.888,
+   "end": 29.068
+  },
+  {
+   "word": "shout",
+   "start": 29.128,
+   "end": 29.368
+  },
+  {
+   "word": "for",
+   "start": 29.428,
+   "end": 29.548
+  },
+  {
+   "word": "help...",
+   "start": 29.608,
+   "end": 29.848
+  },
+  {
+   "word": "but",
+   "start": 30.248,
+   "end": 30.348
+  },
+  {
+   "word": "your",
+   "start": 30.388,
+   "end": 30.528
+  },
+  {
+   "word": "voice",
+   "start": 30.588,
+   "end": 30.868
+  },
+  {
+   "word": "is",
+   "start": 30.968,
+   "end": 31.028
+  },
+  {
+   "word": "too",
+   "start": 31.148,
+   "end": 31.368
+  },
+  {
+   "word": "deep",
+   "start": 31.448,
+   "end": 31.668
+  },
+  {
+   "word": "for",
+   "start": 31.728,
+   "end": 31.848
+  },
+  {
+   "word": "anyone",
+   "start": 31.968,
+   "end": 32.288
+  },
+  {
+   "word": "to",
+   "start": 32.328,
+   "end": 32.409
+  },
+  {
+   "word": "hear.",
+   "start": 32.469,
+   "end": 32.709
+  },
+  {
+   "word": "So",
+   "start": 33.209,
+   "end": 33.329
+  },
+  {
+   "word": "you",
+   "start": 33.369,
+   "end": 33.509
+  },
+  {
+   "word": "try",
+   "start": 33.549,
+   "end": 33.749
+  },
+  {
+   "word": "to",
+   "start": 33.769,
+   "end": 33.849
+  },
+  {
+   "word": "take",
+   "start": 33.909,
+   "end": 34.089
+  },
+  {
+   "word": "one",
+   "start": 34.369,
+   "end": 34.489
+  },
+  {
+   "word": "careful",
+   "start": 34.689,
+   "end": 35.109
+  },
+  {
+   "word": "step...",
+   "start": 35.189,
+   "end": 35.509
+  }
+ ]
+}

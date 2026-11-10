@@ -1,0 +1,471 @@
+{
+ "duration": 38.269375,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "You've",
+   "start": 0.06,
+   "end": 0.26
+  },
+  {
+   "word": "turned",
+   "start": 0.3,
+   "end": 0.56
+  },
+  {
+   "word": "completely",
+   "start": 0.62,
+   "end": 1.28
+  },
+  {
+   "word": "invisible.",
+   "start": 1.34,
+   "end": 1.94
+  },
+  {
+   "word": "First",
+   "start": 2.621,
+   "end": 2.861
+  },
+  {
+   "word": "problem:",
+   "start": 2.921,
+   "end": 3.321
+  },
+  {
+   "word": "you're",
+   "start": 3.781,
+   "end": 3.941
+  },
+  {
+   "word": "blind.",
+   "start": 3.981,
+   "end": 4.441
+  },
+  {
+   "word": "To",
+   "start": 5.041,
+   "end": 5.141
+  },
+  {
+   "word": "see,",
+   "start": 5.221,
+   "end": 5.541
+  },
+  {
+   "word": "your",
+   "start": 5.781,
+   "end": 5.941
+  },
+  {
+   "word": "eyes",
+   "start": 6.182,
+   "end": 6.362
+  },
+  {
+   "word": "have",
+   "start": 6.422,
+   "end": 6.562
+  },
+  {
+   "word": "to",
+   "start": 6.602,
+   "end": 6.662
+  },
+  {
+   "word": "catch",
+   "start": 6.722,
+   "end": 7.022
+  },
+  {
+   "word": "light.",
+   "start": 7.122,
+   "end": 7.382
+  },
+  {
+   "word": "Invisible",
+   "start": 7.902,
+   "end": 8.422
+  },
+  {
+   "word": "eyes",
+   "start": 8.542,
+   "end": 8.702
+  },
+  {
+   "word": "let",
+   "start": 8.802,
+   "end": 8.942
+  },
+  {
+   "word": "it",
+   "start": 8.962,
+   "end": 9.022
+  },
+  {
+   "word": "pass",
+   "start": 9.082,
+   "end": 9.322
+  },
+  {
+   "word": "straight",
+   "start": 9.442,
+   "end": 9.742
+  },
+  {
+   "word": "through.",
+   "start": 9.782,
+   "end": 10.082
+  },
+  {
+   "word": "Second",
+   "start": 10.843,
+   "end": 11.143
+  },
+  {
+   "word": "problem:",
+   "start": 11.183,
+   "end": 11.563
+  },
+  {
+   "word": "you're",
+   "start": 12.003,
+   "end": 12.223
+  },
+  {
+   "word": "not",
+   "start": 12.283,
+   "end": 12.443
+  },
+  {
+   "word": "really",
+   "start": 12.643,
+   "end": 13.003
+  },
+  {
+   "word": "invisible.",
+   "start": 13.063,
+   "end": 13.583
+  },
+  {
+   "word": "Your",
+   "start": 14.103,
+   "end": 14.263
+  },
+  {
+   "word": "body",
+   "start": 14.304,
+   "end": 14.604
+  },
+  {
+   "word": "bends",
+   "start": 14.724,
+   "end": 15.064
+  },
+  {
+   "word": "light",
+   "start": 15.164,
+   "end": 15.384
+  },
+  {
+   "word": "like",
+   "start": 15.444,
+   "end": 15.624
+  },
+  {
+   "word": "glass,",
+   "start": 15.704,
+   "end": 16.144
+  },
+  {
+   "word": "so",
+   "start": 16.424,
+   "end": 16.564
+  },
+  {
+   "word": "people",
+   "start": 16.604,
+   "end": 16.884
+  },
+  {
+   "word": "see",
+   "start": 16.944,
+   "end": 17.124
+  },
+  {
+   "word": "a",
+   "start": 17.164,
+   "end": 17.204
+  },
+  {
+   "word": "shimmering",
+   "start": 17.344,
+   "end": 17.784
+  },
+  {
+   "word": "outline",
+   "start": 17.944,
+   "end": 18.304
+  },
+  {
+   "word": "of",
+   "start": 18.344,
+   "end": 18.405
+  },
+  {
+   "word": "you.",
+   "start": 18.445,
+   "end": 18.605
+  },
+  {
+   "word": "To",
+   "start": 19.105,
+   "end": 19.205
+  },
+  {
+   "word": "vanish",
+   "start": 19.245,
+   "end": 19.565
+  },
+  {
+   "word": "completely,",
+   "start": 19.625,
+   "end": 20.245
+  },
+  {
+   "word": "you'd",
+   "start": 20.485,
+   "end": 20.645
+  },
+  {
+   "word": "have",
+   "start": 20.685,
+   "end": 20.805
+  },
+  {
+   "word": "to",
+   "start": 20.845,
+   "end": 20.925
+  },
+  {
+   "word": "bend",
+   "start": 21.005,
+   "end": 21.245
+  },
+  {
+   "word": "light",
+   "start": 21.325,
+   "end": 21.525
+  },
+  {
+   "word": "exactly",
+   "start": 21.645,
+   "end": 22.245
+  },
+  {
+   "word": "like",
+   "start": 22.305,
+   "end": 22.486
+  },
+  {
+   "word": "air.",
+   "start": 22.706,
+   "end": 22.886
+  },
+  {
+   "word": "And",
+   "start": 23.586,
+   "end": 23.706
+  },
+  {
+   "word": "that",
+   "start": 23.766,
+   "end": 23.926
+  },
+  {
+   "word": "sandwich",
+   "start": 23.986,
+   "end": 24.346
+  },
+  {
+   "word": "you",
+   "start": 24.386,
+   "end": 24.486
+  },
+  {
+   "word": "just",
+   "start": 24.506,
+   "end": 24.666
+  },
+  {
+   "word": "ate?",
+   "start": 24.726,
+   "end": 24.906
+  },
+  {
+   "word": "Everyone",
+   "start": 25.486,
+   "end": 25.906
+  },
+  {
+   "word": "can",
+   "start": 25.946,
+   "end": 26.086
+  },
+  {
+   "word": "watch",
+   "start": 26.126,
+   "end": 26.326
+  },
+  {
+   "word": "it",
+   "start": 26.366,
+   "end": 26.426
+  },
+  {
+   "word": "float...",
+   "start": 26.506,
+   "end": 26.827
+  },
+  {
+   "word": "and",
+   "start": 27.487,
+   "end": 27.647
+  },
+  {
+   "word": "slowly",
+   "start": 27.787,
+   "end": 28.187
+  },
+  {
+   "word": "get",
+   "start": 28.227,
+   "end": 28.367
+  },
+  {
+   "word": "digested",
+   "start": 28.427,
+   "end": 28.947
+  },
+  {
+   "word": "inside",
+   "start": 28.987,
+   "end": 29.367
+  },
+  {
+   "word": "you.",
+   "start": 29.387,
+   "end": 29.527
+  },
+  {
+   "word": "Rain",
+   "start": 30.147,
+   "end": 30.447
+  },
+  {
+   "word": "makes",
+   "start": 30.487,
+   "end": 30.688
+  },
+  {
+   "word": "it",
+   "start": 30.748,
+   "end": 30.808
+  },
+  {
+   "word": "worse.",
+   "start": 30.888,
+   "end": 31.228
+  },
+  {
+   "word": "Every",
+   "start": 31.788,
+   "end": 32.068
+  },
+  {
+   "word": "drop",
+   "start": 32.128,
+   "end": 32.468
+  },
+  {
+   "word": "splashes",
+   "start": 32.548,
+   "end": 33.108
+  },
+  {
+   "word": "off",
+   "start": 33.208,
+   "end": 33.348
+  },
+  {
+   "word": "your",
+   "start": 33.388,
+   "end": 33.508
+  },
+  {
+   "word": "invisible",
+   "start": 33.548,
+   "end": 33.988
+  },
+  {
+   "word": "body.",
+   "start": 34.028,
+   "end": 34.348
+  },
+  {
+   "word": "So",
+   "start": 34.889,
+   "end": 35.129
+  },
+  {
+   "word": "you",
+   "start": 35.189,
+   "end": 35.369
+  },
+  {
+   "word": "stand",
+   "start": 35.409,
+   "end": 35.709
+  },
+  {
+   "word": "still",
+   "start": 35.749,
+   "end": 35.969
+  },
+  {
+   "word": "in",
+   "start": 36.009,
+   "end": 36.069
+  },
+  {
+   "word": "the",
+   "start": 36.089,
+   "end": 36.169
+  },
+  {
+   "word": "kitchen...",
+   "start": 36.209,
+   "end": 36.569
+  },
+  {
+   "word": "and",
+   "start": 37.149,
+   "end": 37.269
+  },
+  {
+   "word": "take",
+   "start": 37.329,
+   "end": 37.489
+  },
+  {
+   "word": "another",
+   "start": 37.529,
+   "end": 37.769
+  },
+  {
+   "word": "bite.",
+   "start": 37.809,
+   "end": 38.029
+  }
+ ]
+}
