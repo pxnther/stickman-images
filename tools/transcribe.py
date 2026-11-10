@@ -23,7 +23,8 @@ for path in sys.argv[1:]:
     aligner = "faster-whisper"
     try:   # WhisperX forced alignment (wav2vec2) for tighter word timings; falls back to whisper's own times
         import whisperx
-        audio = whisperx.load_audio(path)
+        from faster_whisper.audio import decode_audio
+        audio = decode_audio(path, sampling_rate=16000)
         model_a, meta = whisperx.load_align_model(language_code="en", device="cpu")
         res = whisperx.align([{"start": s.start, "end": s.end, "text": s.text} for s in segs], model_a, meta, audio, "cpu",
                              return_char_alignments=False)
