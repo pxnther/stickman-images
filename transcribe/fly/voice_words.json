@@ -1,0 +1,421 @@
+{
+ "duration": 27.3240625,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "Fly",
+   "start": 0.14,
+   "end": 0.38
+  },
+  {
+   "word": "like",
+   "start": 0.42,
+   "end": 0.601
+  },
+  {
+   "word": "Superman,",
+   "start": 0.741,
+   "end": 1.341
+  },
+  {
+   "word": "and",
+   "start": 1.521,
+   "end": 1.621
+  },
+  {
+   "word": "you'd",
+   "start": 1.661,
+   "end": 1.822
+  },
+  {
+   "word": "pass",
+   "start": 1.862,
+   "end": 2.162
+  },
+  {
+   "word": "out",
+   "start": 2.262,
+   "end": 2.382
+  },
+  {
+   "word": "before",
+   "start": 2.442,
+   "end": 2.682
+  },
+  {
+   "word": "you",
+   "start": 2.722,
+   "end": 2.822
+  },
+  {
+   "word": "cleared",
+   "start": 2.863,
+   "end": 3.083
+  },
+  {
+   "word": "the",
+   "start": 3.123,
+   "end": 3.203
+  },
+  {
+   "word": "rooftops.",
+   "start": 3.263,
+   "end": 3.843
+  },
+  {
+   "word": "Blasting",
+   "start": 4.444,
+   "end": 4.864
+  },
+  {
+   "word": "off",
+   "start": 4.924,
+   "end": 5.064
+  },
+  {
+   "word": "that",
+   "start": 5.165,
+   "end": 5.385
+  },
+  {
+   "word": "fast",
+   "start": 5.445,
+   "end": 5.805
+  },
+  {
+   "word": "drains",
+   "start": 5.965,
+   "end": 6.266
+  },
+  {
+   "word": "the",
+   "start": 6.326,
+   "end": 6.406
+  },
+  {
+   "word": "blood",
+   "start": 6.446,
+   "end": 6.686
+  },
+  {
+   "word": "from",
+   "start": 6.726,
+   "end": 6.846
+  },
+  {
+   "word": "your",
+   "start": 6.886,
+   "end": 7.026
+  },
+  {
+   "word": "brain",
+   "start": 7.086,
+   "end": 7.447
+  },
+  {
+   "word": "into",
+   "start": 7.607,
+   "end": 7.787
+  },
+  {
+   "word": "your",
+   "start": 7.847,
+   "end": 7.987
+  },
+  {
+   "word": "feet.",
+   "start": 8.067,
+   "end": 8.347
+  },
+  {
+   "word": "Most",
+   "start": 8.908,
+   "end": 9.128
+  },
+  {
+   "word": "people",
+   "start": 9.168,
+   "end": 9.428
+  },
+  {
+   "word": "black",
+   "start": 9.488,
+   "end": 9.749
+  },
+  {
+   "word": "out",
+   "start": 9.849,
+   "end": 9.969
+  },
+  {
+   "word": "at",
+   "start": 10.029,
+   "end": 10.109
+  },
+  {
+   "word": "around",
+   "start": 10.149,
+   "end": 10.409
+  },
+  {
+   "word": "five",
+   "start": 10.529,
+   "end": 10.85
+  },
+  {
+   "word": "G.",
+   "start": 10.89,
+   "end": 11.13
+  },
+  {
+   "word": "A",
+   "start": 11.67,
+   "end": 11.71
+  },
+  {
+   "word": "Superman",
+   "start": 11.79,
+   "end": 12.251
+  },
+  {
+   "word": "launch",
+   "start": 12.271,
+   "end": 12.571
+  },
+  {
+   "word": "is",
+   "start": 12.811,
+   "end": 12.891
+  },
+  {
+   "word": "over",
+   "start": 13.011,
+   "end": 13.212
+  },
+  {
+   "word": "thirty.",
+   "start": 13.412,
+   "end": 13.772
+  },
+  {
+   "word": "Break",
+   "start": 14.433,
+   "end": 14.653
+  },
+  {
+   "word": "the",
+   "start": 14.693,
+   "end": 14.793
+  },
+  {
+   "word": "sound",
+   "start": 14.853,
+   "end": 15.113
+  },
+  {
+   "word": "barrier,",
+   "start": 15.153,
+   "end": 15.554
+  },
+  {
+   "word": "and",
+   "start": 15.714,
+   "end": 15.794
+  },
+  {
+   "word": "your",
+   "start": 15.814,
+   "end": 15.974
+  },
+  {
+   "word": "sonic",
+   "start": 16.054,
+   "end": 16.394
+  },
+  {
+   "word": "boom",
+   "start": 16.434,
+   "end": 16.735
+  },
+  {
+   "word": "shatters",
+   "start": 16.895,
+   "end": 17.335
+  },
+  {
+   "word": "the",
+   "start": 17.375,
+   "end": 17.435
+  },
+  {
+   "word": "windows",
+   "start": 17.495,
+   "end": 17.836
+  },
+  {
+   "word": "below.",
+   "start": 17.896,
+   "end": 18.236
+  },
+  {
+   "word": "At",
+   "start": 18.797,
+   "end": 18.857
+  },
+  {
+   "word": "that",
+   "start": 18.897,
+   "end": 19.077
+  },
+  {
+   "word": "speed,",
+   "start": 19.137,
+   "end": 19.437
+  },
+  {
+   "word": "the",
+   "start": 19.677,
+   "end": 19.797
+  },
+  {
+   "word": "air",
+   "start": 19.918,
+   "end": 20.078
+  },
+  {
+   "word": "shoves",
+   "start": 20.218,
+   "end": 20.518
+  },
+  {
+   "word": "on",
+   "start": 20.638,
+   "end": 20.698
+  },
+  {
+   "word": "you",
+   "start": 20.738,
+   "end": 20.858
+  },
+  {
+   "word": "with",
+   "start": 20.898,
+   "end": 21.019
+  },
+  {
+   "word": "the",
+   "start": 21.059,
+   "end": 21.139
+  },
+  {
+   "word": "weight",
+   "start": 21.199,
+   "end": 21.399
+  },
+  {
+   "word": "of",
+   "start": 21.419,
+   "end": 21.479
+  },
+  {
+   "word": "a",
+   "start": 21.519,
+   "end": 21.559
+  },
+  {
+   "word": "car.",
+   "start": 21.659,
+   "end": 22.039
+  },
+  {
+   "word": "Fly",
+   "start": 22.64,
+   "end": 22.92
+  },
+  {
+   "word": "as",
+   "start": 22.96,
+   "end": 23.04
+  },
+  {
+   "word": "high",
+   "start": 23.1,
+   "end": 23.301
+  },
+  {
+   "word": "as",
+   "start": 23.341,
+   "end": 23.441
+  },
+  {
+   "word": "a",
+   "start": 23.481,
+   "end": 23.521
+  },
+  {
+   "word": "jet,",
+   "start": 23.601,
+   "end": 23.881
+  },
+  {
+   "word": "and",
+   "start": 24.161,
+   "end": 24.241
+  },
+  {
+   "word": "you'd",
+   "start": 24.281,
+   "end": 24.442
+  },
+  {
+   "word": "pass",
+   "start": 24.482,
+   "end": 24.762
+  },
+  {
+   "word": "out",
+   "start": 24.862,
+   "end": 24.982
+  },
+  {
+   "word": "in",
+   "start": 25.042,
+   "end": 25.102
+  },
+  {
+   "word": "about",
+   "start": 25.142,
+   "end": 25.342
+  },
+  {
+   "word": "a",
+   "start": 25.382,
+   "end": 25.422
+  },
+  {
+   "word": "minute.",
+   "start": 25.502,
+   "end": 25.803
+  },
+  {
+   "word": "Still",
+   "start": 26.383,
+   "end": 26.583
+  },
+  {
+   "word": "want",
+   "start": 26.603,
+   "end": 26.724
+  },
+  {
+   "word": "to",
+   "start": 26.744,
+   "end": 26.784
+  },
+  {
+   "word": "fly?",
+   "start": 26.824,
+   "end": 27.044
+  }
+ ]
+}
