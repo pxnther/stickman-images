@@ -1,0 +1,426 @@
+{
+ "duration": 28.8391875,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "Get",
+   "start": 0.1,
+   "end": 0.28
+  },
+  {
+   "word": "X-ray",
+   "start": 0.5,
+   "end": 0.821
+  },
+  {
+   "word": "vision,",
+   "start": 0.861,
+   "end": 1.201
+  },
+  {
+   "word": "and",
+   "start": 1.401,
+   "end": 1.481
+  },
+  {
+   "word": "you'd",
+   "start": 1.501,
+   "end": 1.681
+  },
+  {
+   "word": "be",
+   "start": 1.701,
+   "end": 1.781
+  },
+  {
+   "word": "giving",
+   "start": 1.801,
+   "end": 2.041
+  },
+  {
+   "word": "everyone",
+   "start": 2.241,
+   "end": 2.602
+  },
+  {
+   "word": "you",
+   "start": 2.642,
+   "end": 2.802
+  },
+  {
+   "word": "look",
+   "start": 2.842,
+   "end": 3.042
+  },
+  {
+   "word": "at",
+   "start": 3.142,
+   "end": 3.242
+  },
+  {
+   "word": "a",
+   "start": 3.342,
+   "end": 3.382
+  },
+  {
+   "word": "dose",
+   "start": 3.482,
+   "end": 3.742
+  },
+  {
+   "word": "of",
+   "start": 3.783,
+   "end": 3.843
+  },
+  {
+   "word": "radiation.",
+   "start": 3.903,
+   "end": 4.543
+  },
+  {
+   "word": "There's",
+   "start": 4.963,
+   "end": 5.163
+  },
+  {
+   "word": "almost",
+   "start": 5.223,
+   "end": 5.504
+  },
+  {
+   "word": "no",
+   "start": 5.724,
+   "end": 5.924
+  },
+  {
+   "word": "X-ray",
+   "start": 6.104,
+   "end": 6.384
+  },
+  {
+   "word": "light",
+   "start": 6.424,
+   "end": 6.604
+  },
+  {
+   "word": "down",
+   "start": 6.644,
+   "end": 6.845
+  },
+  {
+   "word": "here,",
+   "start": 6.925,
+   "end": 7.105
+  },
+  {
+   "word": "so",
+   "start": 7.465,
+   "end": 7.585
+  },
+  {
+   "word": "to",
+   "start": 7.625,
+   "end": 7.685
+  },
+  {
+   "word": "see,",
+   "start": 7.765,
+   "end": 8.045
+  },
+  {
+   "word": "your",
+   "start": 8.426,
+   "end": 8.606
+  },
+  {
+   "word": "eyes",
+   "start": 8.766,
+   "end": 8.906
+  },
+  {
+   "word": "would",
+   "start": 8.946,
+   "end": 9.086
+  },
+  {
+   "word": "have",
+   "start": 9.146,
+   "end": 9.246
+  },
+  {
+   "word": "to",
+   "start": 9.286,
+   "end": 9.346
+  },
+  {
+   "word": "fire",
+   "start": 9.466,
+   "end": 9.766
+  },
+  {
+   "word": "X-rays",
+   "start": 9.947,
+   "end": 10.327
+  },
+  {
+   "word": "themselves.",
+   "start": 10.367,
+   "end": 10.987
+  },
+  {
+   "word": "Stare",
+   "start": 11.588,
+   "end": 11.808
+  },
+  {
+   "word": "at",
+   "start": 11.848,
+   "end": 11.908
+  },
+  {
+   "word": "someone",
+   "start": 11.948,
+   "end": 12.208
+  },
+  {
+   "word": "for",
+   "start": 12.248,
+   "end": 12.368
+  },
+  {
+   "word": "half",
+   "start": 12.448,
+   "end": 12.668
+  },
+  {
+   "word": "an",
+   "start": 12.688,
+   "end": 12.748
+  },
+  {
+   "word": "hour,",
+   "start": 12.768,
+   "end": 13.029
+  },
+  {
+   "word": "and",
+   "start": 13.269,
+   "end": 13.349
+  },
+  {
+   "word": "you",
+   "start": 13.389,
+   "end": 13.469
+  },
+  {
+   "word": "could",
+   "start": 13.509,
+   "end": 13.649
+  },
+  {
+   "word": "burn",
+   "start": 13.729,
+   "end": 13.969
+  },
+  {
+   "word": "their",
+   "start": 14.009,
+   "end": 14.169
+  },
+  {
+   "word": "skin.",
+   "start": 14.269,
+   "end": 14.61
+  },
+  {
+   "word": "And",
+   "start": 15.15,
+   "end": 15.25
+  },
+  {
+   "word": "you'd",
+   "start": 15.29,
+   "end": 15.45
+  },
+  {
+   "word": "never",
+   "start": 15.59,
+   "end": 15.851
+  },
+  {
+   "word": "see",
+   "start": 15.931,
+   "end": 16.111
+  },
+  {
+   "word": "bones:",
+   "start": 16.171,
+   "end": 16.531
+  },
+  {
+   "word": "hospital",
+   "start": 17.071,
+   "end": 17.512
+  },
+  {
+   "word": "X-rays",
+   "start": 17.652,
+   "end": 17.972
+  },
+  {
+   "word": "work",
+   "start": 18.032,
+   "end": 18.252
+  },
+  {
+   "word": "because",
+   "start": 18.372,
+   "end": 18.612
+  },
+  {
+   "word": "the",
+   "start": 18.672,
+   "end": 18.752
+  },
+  {
+   "word": "detector",
+   "start": 18.793,
+   "end": 19.273
+  },
+  {
+   "word": "sits",
+   "start": 19.333,
+   "end": 19.533
+  },
+  {
+   "word": "behind",
+   "start": 19.593,
+   "end": 20.073
+  },
+  {
+   "word": "the",
+   "start": 20.113,
+   "end": 20.193
+  },
+  {
+   "word": "body.",
+   "start": 20.233,
+   "end": 20.514
+  },
+  {
+   "word": "Your",
+   "start": 20.934,
+   "end": 21.094
+  },
+  {
+   "word": "lens",
+   "start": 21.154,
+   "end": 21.434
+  },
+  {
+   "word": "can't",
+   "start": 21.494,
+   "end": 21.694
+  },
+  {
+   "word": "even",
+   "start": 21.734,
+   "end": 21.895
+  },
+  {
+   "word": "focus",
+   "start": 22.055,
+   "end": 22.415
+  },
+  {
+   "word": "X-rays,",
+   "start": 22.535,
+   "end": 22.935
+  },
+  {
+   "word": "so",
+   "start": 23.195,
+   "end": 23.316
+  },
+  {
+   "word": "the",
+   "start": 23.336,
+   "end": 23.436
+  },
+  {
+   "word": "whole",
+   "start": 23.516,
+   "end": 23.756
+  },
+  {
+   "word": "world",
+   "start": 23.856,
+   "end": 24.136
+  },
+  {
+   "word": "would",
+   "start": 24.196,
+   "end": 24.336
+  },
+  {
+   "word": "be",
+   "start": 24.356,
+   "end": 24.456
+  },
+  {
+   "word": "one",
+   "start": 24.696,
+   "end": 24.837
+  },
+  {
+   "word": "glowing",
+   "start": 24.957,
+   "end": 25.377
+  },
+  {
+   "word": "blur.",
+   "start": 25.497,
+   "end": 25.857
+  },
+  {
+   "word": "Would",
+   "start": 26.438,
+   "end": 26.578
+  },
+  {
+   "word": "you",
+   "start": 26.598,
+   "end": 26.698
+  },
+  {
+   "word": "still",
+   "start": 26.718,
+   "end": 26.918
+  },
+  {
+   "word": "take",
+   "start": 26.958,
+   "end": 27.158
+  },
+  {
+   "word": "it?",
+   "start": 27.198,
+   "end": 27.278
+  },
+  {
+   "word": "Yes",
+   "start": 27.859,
+   "end": 28.079
+  },
+  {
+   "word": "or",
+   "start": 28.299,
+   "end": 28.379
+  },
+  {
+   "word": "no?",
+   "start": 28.439,
+   "end": 28.619
+  }
+ ]
+}
