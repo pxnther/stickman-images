@@ -52,7 +52,11 @@ def main(d):
         return
     if job['endpoint'] == 'poll':
         for n, rid in job['ids'].items():
-            st, res = call('GET', f'/api/v1/predictions/{rid}/result')
+            for _ in range(int(job.get('wait_min', 0) * 6) + 1):
+                st, res = call('GET', f'/api/v1/predictions/{rid}/result')
+                if str(res.get('status', '')).lower() not in ('processing', 'queued', 'pending'):
+                    break
+                time.sleep(10)
             log.append({'name': n, 'status': st, 'result': res})
             for i, u in enumerate(res.get('outputs') or []):
                 ext = os.path.splitext(u.split('?')[0])[1] or '.mp4'
