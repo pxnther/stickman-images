@@ -1,0 +1,29 @@
+name: muapi
+on:
+  push:
+    paths:
+      - 'muapi/**/job.json'
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Run MuAPI jobs
+        env:
+          MUAPI_KEY: ${{ secrets.MUAPI_KEY }}
+        run: |
+          set -e
+          dirs=$(git diff --name-only --diff-filter=AMR HEAD~1 HEAD | grep 'job.json$' | xargs -r -n1 dirname)
+          [ -z "$dirs" ] && exit 0
+          python3 tools/muapi_job.py $dirs
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git pull -q --rebase || true
+          git add -A muapi
+          git commit -m "MuAPI results" || true
+          git push
