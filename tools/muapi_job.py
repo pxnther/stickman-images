@@ -50,6 +50,14 @@ def main(d):
                     refs[name] = schemas[name]
         json.dump(refs, open(os.path.join(d, 'schemas.json'), 'w'), indent=1)
         return
+    if job['endpoint'] == 'estimate':
+        for e in job['items']:
+            st, res = call('POST', f"/api/v1/models/{e['name']}/estimate-cost", e['body'])
+            log.append({'name': e['name'], 'status': st, 'estimate': res})
+        st, res = call('GET', '/api/v1/account/balance')
+        log.append({'balance_status': st, 'balance': res})
+        json.dump(log, open(os.path.join(d, 'result.json'), 'w'), indent=1)
+        return
     st, res = call('POST', '/api/v1/' + job['endpoint'].lstrip('/'), job['body'])
     log.append({'submit_status': st, 'submit': res})
     rid = res.get('request_id') or res.get('id') or (res.get('data') or {}).get('request_id')
