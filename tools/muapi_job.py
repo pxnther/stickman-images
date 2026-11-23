@@ -50,6 +50,17 @@ def main(d):
                     refs[name] = schemas[name]
         json.dump(refs, open(os.path.join(d, 'schemas.json'), 'w'), indent=1)
         return
+    if job['endpoint'] == 'poll':
+        for n, rid in job['ids'].items():
+            st, res = call('GET', f'/api/v1/predictions/{rid}/result')
+            log.append({'name': n, 'status': st, 'result': res})
+            for i, u in enumerate(res.get('outputs') or []):
+                ext = os.path.splitext(u.split('?')[0])[1] or '.mp4'
+                urllib.request.urlretrieve(u, os.path.join(d, f'{n}_out{i + 1:02d}{ext}'))
+        st, res = call('GET', '/api/v1/account/balance')
+        log.append({'balance_status': st, 'balance': res})
+        json.dump(log, open(os.path.join(d, 'result.json'), 'w'), indent=1)
+        return
     if job['endpoint'] == 'estimate':
         for e in job['items']:
             st, res = call('POST', f"/api/v1/models/{e['name']}/estimate-cost", e['body'])
