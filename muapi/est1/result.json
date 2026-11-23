@@ -1,0 +1,169 @@
+[
+ {
+  "name": "kling-o1-video-edit-fast",
+  "status": 200,
+  "estimate": {
+   "model": "kling-o1-video-edit-fast",
+   "cost": 1.17,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "kling-o1-video-edit-fast"
+  }
+ },
+ {
+  "name": "kling-o1-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "kling-o1-video-edit",
+   "cost": 1.09,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "kling-o1-video-edit"
+  }
+ },
+ {
+  "name": "kling-o1-standard-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "kling-o1-standard-video-edit",
+   "cost": 0.815,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "kling-o1-standard-video-edit"
+  }
+ },
+ {
+  "name": "seedance-2.5-flash-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "seedance-2.5-flash-video-edit",
+   "cost": 1.111,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "seedance-2.5-flash-video-edit-extend"
+  }
+ },
+ {
+  "name": "seedance-2.5-flash-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "seedance-2.5-flash-video-edit",
+   "cost": 2.223,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "seedance-2.5-flash-video-edit-extend"
+  }
+ },
+ {
+  "name": "seedance-2.5-video-edit-480p",
+  "status": 200,
+  "estimate": {
+   "model": "seedance-2.5-video-edit-480p",
+   "cost": 1.658,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "seedance-2.5-omni-reference-480p-cost"
+  }
+ },
+ {
+  "name": "seedance-2.5-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "seedance-2.5-video-edit",
+   "cost": 3.315,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "seedance-2.5-omni-reference-cost"
+  }
+ },
+ {
+  "name": "wan2.7-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "wan2.7-video-edit",
+   "cost": 0.65,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "wan27-video-cost"
+  }
+ },
+ {
+  "name": "wan2.2-edit-video",
+  "status": 200,
+  "estimate": {
+   "model": "wan2.2-edit-video",
+   "cost": 0.6,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "wan2.2-v2v"
+  }
+ },
+ {
+  "name": "happy-horse-1.1-video-edit-720p",
+  "status": 200,
+  "estimate": {
+   "model": "happy-horse-1.1-video-edit-720p",
+   "cost": 0.7,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "happy-horse-1.1-video-edit-720p-cost"
+  }
+ },
+ {
+  "name": "happy-horse-1-video-edit-720p",
+  "status": 200,
+  "estimate": {
+   "model": "happy-horse-1-video-edit-720p",
+   "cost": 1.05,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "happy-horse-1-video-edit-720p-cost"
+  }
+ },
+ {
+  "name": "gemini-omni-flash-1-2-video-edit",
+  "status": 200,
+  "estimate": {
+   "model": "gemini-omni-flash-1-2-video-edit",
+   "cost": 0.312,
+   "original_cost": null,
+   "currency": "USD",
+   "dynamic_pricing": true,
+   "cost_strategy": "gemini-omni-flash-12-edit-cost"
+  }
+ },
+ {
+  "name": "seedance-v2.0-video-edit",
+  "status": 404,
+  "estimate": {
+   "detail": {
+    "error": {
+     "code": "MODEL_NOT_FOUND",
+     "message": "Unknown model: seedance-v2.0-video-edit"
+    }
+   }
+  }
+ },
+ {
+  "balance_status": 200,
+  "balance": {
+   "balance": 10.0,
+   "bonus_balances": {},
+   "topup_totals": {},
+   "currency": "USD",
+   "email": "syazan64@gmail.com",
+   "web_safety_forced": true
+  }
+ }
+]
