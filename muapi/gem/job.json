@@ -1,0 +1,9 @@
+{
+ "endpoint": "gemini-omni-flash-1-2-video-edit",
+ "body": {
+  "prompt": "Turn this into photorealistic cinematic live-action footage. Keep the exact same camera moves, cuts, framing and timing. Keep the character as the same smooth glossy white 3D stickman with black dot eyes, same shape and poses. Make the Brooklyn street, buildings and sky look like real footage: real brick, glass with reflections, natural sunlight and shadows, realistic clouds.",
+  "video_url": "https://cdn.jsdelivr.net/gh/pxnther/stickman-images@ae485b8/muapi/fly10/clip.mp4",
+  "aspect_ratio": "9:16",
+  "resolution": "720p"
+ }
+}
