@@ -1,0 +1,4399 @@
+{
+ "UpdateBase": {
+  "properties": {
+   "title": {
+    "type": "string",
+    "title": "Title"
+   },
+   "description": {
+    "type": "string",
+    "title": "Description"
+   },
+   "url_path": {
+    "type": "string",
+    "title": "Url Path"
+   },
+   "update_value": {
+    "type": "integer",
+    "title": "Update Value"
+   },
+   "image_video_url": {
+    "type": "string",
+    "title": "Image Video Url"
+   },
+   "cost": {
+    "type": "number",
+    "title": "Cost"
+   }
+  },
+  "type": "object",
+  "required": [
+   "title",
+   "description",
+   "url_path",
+   "update_value",
+   "image_video_url",
+   "cost"
+  ],
+  "title": "UpdateBase"
+ },
+ "ReveImageEdit": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Image Url"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "image_url"
+  ],
+  "title": "ReveImageEdit"
+ },
+ "MuseImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "1:1",
+       "16:9",
+       "9:16",
+       "4:3",
+       "3:4",
+       "21:9"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "webp",
+     "png",
+     "jpeg"
+    ],
+    "title": "Output Format",
+    "default": "webp"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "MuseImageEditRequest"
+ },
+ "Flux3KleinEditImageRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "maxLength": 5000,
+    "minLength": 1,
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "minItems": 1,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "1:1",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3",
+     "16:9",
+     "9:16",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "auto"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "png",
+     "jpeg",
+     "webp"
+    ],
+    "title": "Output Format",
+    "default": "png"
+   },
+   "num_images": {
+    "type": "integer",
+    "maximum": 4.0,
+    "minimum": 1.0,
+    "title": "Num Images",
+    "default": 1
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 2147483647.0,
+      "minimum": 0.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed"
+   },
+   "enhance_prompt": {
+    "type": "boolean",
+    "title": "Enhance Prompt",
+    "default": true
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux3KleinEditImageRequest"
+ },
+ "Gpt4oEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Image Url"
+   },
+   "mask_image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Mask Image Url"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "2:3",
+     "3:2"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "num_images": {
+    "type": "integer",
+    "enum": [
+     1,
+     2,
+     4
+    ],
+    "title": "Num Images",
+    "default": 1
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "image_url",
+   "mask_image_url"
+  ],
+  "title": "Gpt4oEditRequest"
+ },
+ "KlingO3EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "1:1",
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "auto"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "num_images": {
+    "type": "integer",
+    "maximum": 9.0,
+    "minimum": 1.0,
+    "title": "Num Images",
+    "default": 1
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "KlingO3EditRequest"
+ },
+ "NanoBanana2LiteEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 14,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "2:3",
+     "3:2",
+     "3:4",
+     "4:3",
+     "4:5",
+     "5:4",
+     "9:16",
+     "16:9",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "NanoBanana2LiteEditRequest"
+ },
+ "SeedEditI2IRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Image Url"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "image_url"
+  ],
+  "title": "SeedEditI2IRequest"
+ },
+ "QwenImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Image Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "9:16",
+     "16:9",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21",
+     "3:2",
+     "2:3"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "image_url"
+  ],
+  "title": "QwenImageEditRequest"
+ },
+ "NanoBananaEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "Auto",
+     "1:1",
+     "3:4",
+     "4:3",
+     "9:16",
+     "16:9",
+     "3:2",
+     "2:3",
+     "5:4",
+     "4:5",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "Auto"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "NanoBananaEditRequest"
+ },
+ "SeedreamEditv4I2IRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "9:16",
+     "16:9",
+     "1:1",
+     "4:3",
+     "3:4",
+     "2:3",
+     "3:2",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "title": "Resolution",
+    "default": "4K"
+   },
+   "num_images": {
+    "type": "integer",
+    "enum": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "title": "Num Images",
+    "default": 1
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "SeedreamEditv4I2IRequest"
+ },
+ "Wan22EditVideoRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p"
+    ],
+    "title": "Resolution",
+    "default": "480p"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Wan22EditVideoRequest"
+ },
+ "QwenImageEditPlusRequest": {
+  "properties": {
+   "prompt": {
+    "anyOf": [
+     {
+      "type": "string"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List",
+    "default": []
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "width": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Width",
+    "default": 1024
+   },
+   "height": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Height",
+    "default": 1024
+   }
+  },
+  "type": "object",
+  "title": "QwenImageEditPlusRequest"
+ },
+ "Wan25EditImageRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "width": {
+    "type": "integer",
+    "maximum": 5000.0,
+    "minimum": 384.0,
+    "title": "Width",
+    "default": 2048
+   },
+   "height": {
+    "type": "integer",
+    "maximum": 5000.0,
+    "minimum": 384.0,
+    "title": "Height",
+    "default": 2048
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Wan25EditImageRequest"
+ },
+ "GrokImagineImage2EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "request_id": {
+    "type": "string",
+    "title": "Request Id"
+   },
+   "mask_indexs": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "integer"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Mask Indexs"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "request_id"
+  ],
+  "title": "GrokImagineImage2EditRequest"
+ },
+ "QwenImageEditPlusLoraRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Text prompt describing the image edits.",
+    "default": "A cinematic ocean wave at sunrise, highly detailed"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List",
+    "description": "The images to edit (maximum 3 reference images)."
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "1:1",
+       "16:9",
+       "9:16",
+       "3:2",
+       "2:3",
+       "4:3",
+       "3:4",
+       "21:9",
+       "9:21"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio",
+    "description": "Aspect ratio of generated image.",
+    "default": "1:1"
+   },
+   "loras": {
+    "anyOf": [
+     {
+      "items": {
+       "$ref": "#/components/schemas/QwenImageEditPlusLoraItem"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Loras",
+    "description": "List of LoRAs to apply (maximum 3)."
+   },
+   "output_format": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "jpeg",
+       "png",
+       "webp"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Output Format",
+    "description": "Format of the output image.",
+    "default": "jpeg"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "images_list"
+  ],
+  "title": "QwenImageEditPlusLoraRequest"
+ },
+ "QwenImageEdit2511LoraRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Text prompt describing the image edits.",
+    "default": "A cinematic ocean wave at sunrise, highly detailed"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List",
+    "description": "The images to edit (maximum 3 reference images)."
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "1:1",
+       "16:9",
+       "9:16",
+       "3:2",
+       "2:3",
+       "4:3",
+       "3:4",
+       "21:9",
+       "9:21"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio",
+    "description": "Aspect ratio of generated image.",
+    "default": "1:1"
+   },
+   "loras": {
+    "anyOf": [
+     {
+      "items": {
+       "$ref": "#/components/schemas/QwenImageEdit2511LoraItem"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Loras",
+    "description": "List of LoRAs to apply (maximum 3)."
+   },
+   "output_format": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "jpeg",
+       "png",
+       "webp"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Output Format",
+    "description": "Format of the output image.",
+    "default": "jpeg"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "images_list"
+  ],
+  "title": "QwenImageEdit2511LoraRequest"
+ },
+ "QwenImageEditLoraRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Text prompt describing the image edits.",
+    "default": "A cinematic ocean wave at sunrise, highly detailed"
+   },
+   "image_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Image Url"
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "1:1",
+       "16:9",
+       "9:16",
+       "3:2",
+       "2:3",
+       "4:3",
+       "3:4",
+       "21:9",
+       "9:21"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio",
+    "description": "Aspect ratio of generated image.",
+    "default": "1:1"
+   },
+   "loras": {
+    "anyOf": [
+     {
+      "items": {
+       "$ref": "#/components/schemas/QwenImageEditLoraItem"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Loras",
+    "description": "List of LoRAs to apply (maximum 3)."
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed to use for generation (-1 for random).",
+    "default": -1
+   },
+   "output_format": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "jpeg",
+       "png",
+       "webp"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Output Format",
+    "description": "Format of the output image.",
+    "default": "jpeg"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "image_url"
+  ],
+  "title": "QwenImageEditLoraRequest"
+ },
+ "NanoBananaProEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "3:4",
+     "4:3",
+     "9:16",
+     "16:9",
+     "3:2",
+     "2:3",
+     "5:4",
+     "4:5",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "NanoBananaProEditRequest"
+ },
+ "KlingO1VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "keep_original_sound": {
+    "type": "boolean",
+    "title": "Keep Original Sound",
+    "default": true
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list",
+   "video_url"
+  ],
+  "title": "KlingO1VideoEditRequest"
+ },
+ "KlingO1EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "KlingO1EditRequest"
+ },
+ "Flux2DevEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "width": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Width",
+    "default": 1024
+   },
+   "height": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Height",
+    "default": 1024
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2DevEditRequest"
+ },
+ "Flux2FlexEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2FlexEditRequest"
+ },
+ "Flux2ProEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2ProEditRequest"
+ },
+ "Seedreamv45EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "3:2",
+     "2:3",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "quality": {
+    "type": "string",
+    "enum": [
+     "high",
+     "basic"
+    ],
+    "title": "Quality",
+    "default": "high"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Seedreamv45EditRequest"
+ },
+ "KlingO1StandardVideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "keep_original_sound": {
+    "type": "boolean",
+    "title": "Keep Original Sound",
+    "default": true
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list",
+   "video_url"
+  ],
+  "title": "KlingO1StandardVideoEditRequest"
+ },
+ "QwenImageEdit2511Request": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "width": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Width",
+    "default": 1024
+   },
+   "height": {
+    "type": "integer",
+    "maximum": 1536.0,
+    "minimum": 256.0,
+    "title": "Height",
+    "default": 1024
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "QwenImageEdit2511Request"
+ },
+ "Wan26ImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Wan26ImageEditRequest"
+ },
+ "GPTImage15EditRequest": {
+  "properties": {
+   "prompt": {
+    "anyOf": [
+     {
+      "type": "string"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "2:3",
+     "3:2"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "quality": {
+    "type": "string",
+    "enum": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "title": "Quality",
+    "default": "medium"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "GPTImage15EditRequest"
+ },
+ "Flux2Klein4BEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein4BEditRequest"
+ },
+ "Flux2Klein4BTurboEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein4BTurboEditRequest"
+ },
+ "Flux2Klein9BEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein9BEditRequest"
+ },
+ "Flux2Klein9BTurboEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein9BTurboEditRequest"
+ },
+ "Flux2Klein4BEditLoraRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "lora_list": {
+    "items": {
+     "$ref": "#/components/schemas/LoraItem"
+    },
+    "type": "array",
+    "title": "Lora List",
+    "default": []
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein4BEditLoraRequest"
+ },
+ "Flux2Klein9BEditLoraRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "lora_list": {
+    "items": {
+     "$ref": "#/components/schemas/LoraItem"
+    },
+    "type": "array",
+    "title": "Lora List",
+    "default": []
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Flux2Klein9BEditLoraRequest"
+ },
+ "Seedream5LiteEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "4:3",
+     "3:4",
+     "16:9",
+     "9:16",
+     "2:3",
+     "3:2",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "quality": {
+    "type": "string",
+    "enum": [
+     "basic",
+     "high"
+    ],
+    "title": "Quality",
+    "default": "basic"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Seedream5LiteEditRequest"
+ },
+ "Seedream5ProEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "4:3",
+     "3:4",
+     "16:9",
+     "9:16",
+     "2:3",
+     "3:2"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Seedream5ProEditRequest"
+ },
+ "Seedream5FlashEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "4:3",
+     "3:4",
+     "16:9",
+     "9:16",
+     "2:3",
+     "3:2",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "png",
+     "jpeg"
+    ],
+    "title": "Output Format",
+    "default": "png"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Seedream5FlashEditRequest"
+ },
+ "Seedream55EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "1:1",
+       "4:3",
+       "3:4",
+       "16:9",
+       "9:16",
+       "2:3",
+       "3:2",
+       "21:9"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "1.5K",
+     "2K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "png",
+     "jpeg"
+    ],
+    "title": "Output Format",
+    "default": "png"
+   },
+   "background": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "transparent",
+     "opaque"
+    ],
+    "title": "Background",
+    "default": "auto"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Seedream55EditRequest"
+ },
+ "MiniMaxH3ImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 16,
+    "title": "Images List"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K",
+     "4K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "png",
+     "jpg",
+     "webp"
+    ],
+    "title": "Output Format",
+    "default": "png"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "MiniMaxH3ImageEditRequest"
+ },
+ "NanoBanana21EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 14
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "1:4",
+     "1:8",
+     "2:3",
+     "3:2",
+     "3:4",
+     "4:1",
+     "4:3",
+     "4:5",
+     "5:4",
+     "8:1",
+     "9:16",
+     "16:9",
+     "21:9",
+     "Auto"
+    ],
+    "title": "Aspect Ratio",
+    "default": "Auto"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "jpg",
+     "png"
+    ],
+    "title": "Output Format",
+    "default": "jpg"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt"
+  ],
+  "title": "NanoBanana21EditRequest"
+ },
+ "NanoBanana2EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "1:4",
+     "1:8",
+     "2:3",
+     "3:2",
+     "3:4",
+     "4:1",
+     "4:3",
+     "4:5",
+     "5:4",
+     "8:1",
+     "9:16",
+     "16:9",
+     "21:9",
+     "Auto"
+    ],
+    "title": "Aspect Ratio",
+    "default": "Auto"
+   },
+   "google_search": {
+    "type": "boolean",
+    "title": "Google Search",
+    "default": false
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1k",
+     "2k",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "1k"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "jpg",
+     "png"
+    ],
+    "title": "Output Format",
+    "default": "jpg"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "NanoBanana2EditRequest"
+ },
+ "Seedance2VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Text prompt describing the video edit. You can reference uploaded images using @image1, @image2, \u2026 @imageN (1-based, matching the order of images_list)."
+   },
+   "video_urls": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 1
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Video Urls",
+    "description": "Exactly 1 reference video clip. (Max size: 10MB, Max duration: 15s)"
+   },
+   "videos_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 1
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Videos List",
+    "description": "Exactly 1 reference video clip. (Max size: 10MB, Max duration: 15s)"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 9
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Up to 9 reference images. Reference them in the prompt via @image1 \u2026 @image9."
+   },
+   "audio_files": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 3
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audio Files",
+    "description": "Up to 3 reference audio files (MP3/WAV, total max 15s). Referenced in prompt via @audio1\u2026@audio3."
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "4:3",
+     "3:4"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "quality": {
+    "type": "string",
+    "enum": [
+     "high",
+     "basic"
+    ],
+    "title": "Quality",
+    "default": "basic"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 15.0,
+    "minimum": 4.0,
+    "title": "Duration (seconds)",
+    "description": "Output video duration in seconds (4\u201315).",
+    "default": 5
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt"
+  ],
+  "title": "Seedance2VideoEditRequest"
+ },
+ "QwenImage20EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21",
+     "3:2",
+     "2:3"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "QwenImage20EditRequest"
+ },
+ "Seedance25FlashVideoEditRequest": {
+  "properties": {
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "duration": {
+    "anyOf": [
+     {
+      "type": "integer"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Duration"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution (480p or 720p).",
+    "default": "720p"
+   },
+   "generate_audio": {
+    "type": "boolean",
+    "title": "Generate Audio",
+    "description": "Generate synchronized audio.",
+    "default": true
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 2147483647.0,
+      "minimum": -1.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed for reproducible generation. Use -1 for random."
+   },
+   "prompt": {
+    "type": "string",
+    "maxLength": 50000,
+    "minLength": 2,
+    "title": "Prompt",
+    "description": "Instructions for the edit: lighting, style, weather, environment, or elements to change."
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "URL of the video to edit."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Reference image URLs guiding subject identity or style (up to 10)."
+   },
+   "audios_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 5
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audios List",
+    "description": "Reference audio URLs (up to 5)."
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Seedance25FlashVideoEditRequest"
+ },
+ "Seedance25VideoEditRequest": {
+  "properties": {
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 30.0,
+    "minimum": 4.0,
+    "title": "Duration",
+    "description": "Video duration in seconds, from 4 to 30.",
+    "default": 5
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "adaptive",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 4294967295.0,
+      "minimum": -1.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed for reproducible generation. Use -1 for random."
+   },
+   "high_bitrate": {
+    "type": "boolean",
+    "title": "High Bitrate",
+    "default": false
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Instructions for the edit \u2014 lighting, style, weather, environment, or specific elements to change. Automatically prefixed with \"Edit the input video.\""
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "URL of the video to edit. Videos longer than 30s are trimmed to 30s."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 30
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Reference image URLs guiding subject identity or style. Up to 30 images."
+   },
+   "audios_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audios List",
+    "description": "Reference audio URLs guiding audio generation. Up to 10 files."
+   },
+   "generate_audio": {
+    "type": "boolean",
+    "title": "Generate Audio",
+    "description": "Whether to generate new audio. If false, the input video's original audio is preserved.",
+    "default": true
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Seedance25VideoEditRequest"
+ },
+ "Seedance25VideoEdit480pRequest": {
+  "properties": {
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 30.0,
+    "minimum": 4.0,
+    "title": "Duration",
+    "description": "Video duration in seconds, from 4 to 30.",
+    "default": 5
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "adaptive",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 4294967295.0,
+      "minimum": -1.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed for reproducible generation. Use -1 for random."
+   },
+   "high_bitrate": {
+    "type": "boolean",
+    "title": "High Bitrate",
+    "default": false
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Instructions for the edit \u2014 lighting, style, weather, environment, or specific elements to change. Automatically prefixed with \"Edit the input video.\""
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "URL of the video to edit. Videos longer than 30s are trimmed to 30s."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 30
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Reference image URLs guiding subject identity or style. Up to 30 images."
+   },
+   "audios_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audios List",
+    "description": "Reference audio URLs guiding audio generation. Up to 10 files."
+   },
+   "generate_audio": {
+    "type": "boolean",
+    "title": "Generate Audio",
+    "description": "Whether to generate new audio. If false, the input video's original audio is preserved.",
+    "default": true
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Seedance25VideoEdit480pRequest"
+ },
+ "Seedance25VideoEdit1080pRequest": {
+  "properties": {
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 30.0,
+    "minimum": 4.0,
+    "title": "Duration",
+    "description": "Video duration in seconds, from 4 to 30.",
+    "default": 5
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "adaptive",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 4294967295.0,
+      "minimum": -1.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed for reproducible generation. Use -1 for random."
+   },
+   "high_bitrate": {
+    "type": "boolean",
+    "title": "High Bitrate",
+    "default": false
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Instructions for the edit \u2014 lighting, style, weather, environment, or specific elements to change. Automatically prefixed with \"Edit the input video.\""
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "URL of the video to edit. Videos longer than 30s are trimmed to 30s."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 30
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Reference image URLs guiding subject identity or style. Up to 30 images."
+   },
+   "audios_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audios List",
+    "description": "Reference audio URLs guiding audio generation. Up to 10 files."
+   },
+   "generate_audio": {
+    "type": "boolean",
+    "title": "Generate Audio",
+    "description": "Whether to generate new audio. If false, the input video's original audio is preserved.",
+    "default": true
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Seedance25VideoEdit1080pRequest"
+ },
+ "Seedance25VideoEdit4kRequest": {
+  "properties": {
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 30.0,
+    "minimum": 4.0,
+    "title": "Duration",
+    "description": "Video duration in seconds, from 4 to 30.",
+    "default": 5
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "adaptive",
+     "16:9",
+     "9:16",
+     "1:1",
+     "4:3",
+     "3:4",
+     "21:9",
+     "9:21"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 4294967295.0,
+      "minimum": -1.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Random seed for reproducible generation. Use -1 for random."
+   },
+   "high_bitrate": {
+    "type": "boolean",
+    "title": "High Bitrate",
+    "default": false
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Instructions for the edit \u2014 lighting, style, weather, environment, or specific elements to change. Automatically prefixed with \"Edit the input video.\""
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "URL of the video to edit. Videos longer than 30s are trimmed to 30s."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 30
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "Reference image URLs guiding subject identity or style. Up to 30 images."
+   },
+   "audios_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audios List",
+    "description": "Reference audio URLs guiding audio generation. Up to 10 files."
+   },
+   "generate_audio": {
+    "type": "boolean",
+    "title": "Generate Audio",
+    "description": "Whether to generate new audio. If false, the input video's original audio is preserved.",
+    "default": true
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "480p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Seedance25VideoEdit4kRequest"
+ },
+ "Wan27ImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "4:3",
+     "3:4",
+     "16:9",
+     "9:16",
+     "21:9",
+     "9:21",
+     "3:2",
+     "2:3"
+    ],
+    "title": "Aspect Ratio",
+    "default": "1:1"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Wan27ImageEditRequest"
+ },
+ "Wan27VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "negative_prompt": {
+    "anyOf": [
+     {
+      "type": "string"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Negative Prompt"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "720p",
+     "1080p"
+    ],
+    "title": "Resolution",
+    "default": "720p"
+   },
+   "duration": {
+    "type": "integer",
+    "maximum": 10.0,
+    "minimum": 0.0,
+    "title": "Duration",
+    "default": 0
+   },
+   "audio_setting": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "origin"
+    ],
+    "title": "Audio Setting",
+    "default": "auto"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "Wan27VideoEditRequest"
+ },
+ "HappyHorse1VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Edit instruction describing the change to apply to the video."
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "Source video URL. MP4 or MOV (H.264 recommended), 3\u201360s, \u2264100 MB, longer side \u22642160px, shorter side \u2265320px, frame rate >8 fps."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 5
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "0\u20135 optional reference image URLs. JPEG/PNG/WEBP, \u2265300px each side, \u226410 MB each."
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "audio_setting": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "origin"
+    ],
+    "title": "Audio Setting",
+    "default": "auto"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 2147483647.0,
+      "minimum": 0.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Optional random seed for reproducibility."
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "720p",
+     "1080p"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "HappyHorse1VideoEditRequest"
+ },
+ "HappyHorse11VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "description": "Edit instruction describing the change to apply to the video."
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url",
+    "description": "Source video URL. MP4 or MOV (H.264 recommended), 3\u201360s, \u2264100 MB, longer side \u22642160px, shorter side \u2265320px, frame rate >8 fps."
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 5
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List",
+    "description": "0\u20135 optional reference image URLs. JPEG/PNG/WEBP, \u2265300px each side, \u226410 MB each."
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "audio_setting": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "origin"
+    ],
+    "title": "Audio Setting",
+    "default": "auto"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 2147483647.0,
+      "minimum": 0.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed",
+    "description": "Optional random seed for reproducibility."
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "720p",
+     "1080p"
+    ],
+    "title": "Resolution",
+    "description": "Output resolution. Price scales with resolution \u2014 see the model's pricing table.",
+    "default": "720p"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "HappyHorse11VideoEditRequest"
+ },
+ "GeminiOmniV2VRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "image_urls": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Image Urls"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "video_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Video Url"
+   },
+   "trim_start": {
+    "type": "number",
+    "minimum": 0.0,
+    "title": "Trim Start",
+    "default": 0
+   },
+   "trim_end": {
+    "type": "number",
+    "minimum": 0.0,
+    "title": "Trim End",
+    "default": 10
+   },
+   "duration": {
+    "type": "integer",
+    "enum": [
+     4,
+     6,
+     8,
+     10
+    ],
+    "title": "Duration",
+    "default": 8
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "1080p"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "audio_ids": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "maxItems": 3
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Audio Ids"
+   },
+   "character_ids": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "maxItems": 3
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Character Ids"
+   },
+   "seed": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 2147483647.0,
+      "minimum": 0.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Seed"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt"
+  ],
+  "title": "GeminiOmniV2VRequest"
+ },
+ "GeminiOmniFlash11EditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "360p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "720p"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "GeminiOmniFlash11EditRequest"
+ },
+ "GeminiOmniFlash12VideoEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "maxLength": 20000,
+    "minLength": 1,
+    "title": "Prompt"
+   },
+   "video_url": {
+    "type": "string",
+    "maxLength": 2083,
+    "minLength": 1,
+    "format": "uri",
+    "title": "Video Url"
+   },
+   "image_urls": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 5
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Image Urls"
+   },
+   "character_ids": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "maxItems": 2
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Character Ids"
+   },
+   "images_list": {
+    "anyOf": [
+     {
+      "items": {
+       "type": "string",
+       "maxLength": 2083,
+       "minLength": 1,
+       "format": "uri"
+      },
+      "type": "array",
+      "maxItems": 5
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Images List"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "16:9",
+     "9:16",
+     "auto"
+    ],
+    "title": "Aspect Ratio",
+    "default": "16:9"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "360p",
+     "720p",
+     "1080p",
+     "4k"
+    ],
+    "title": "Resolution",
+    "default": "720p"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "video_url"
+  ],
+  "title": "GeminiOmniFlash12VideoEditRequest"
+ },
+ "MotionGraphicsEditRequest": {
+  "properties": {
+   "request_id": {
+    "type": "string",
+    "title": "Request Id",
+    "description": "The request_id from a completed motion-graphics generation."
+   },
+   "edit_prompt": {
+    "type": "string",
+    "title": "Edit Prompt",
+    "description": "Describe what to change in the animation (e.g. 'change the background to dark blue and make the bars gold')."
+   },
+   "duration_seconds": {
+    "anyOf": [
+     {
+      "type": "integer",
+      "maximum": 30.0,
+      "minimum": 5.0
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Duration Seconds",
+    "description": "Override the duration (5\u201330 s). Defaults to the original generation's duration."
+   },
+   "aspect_ratio": {
+    "anyOf": [
+     {
+      "type": "string",
+      "enum": [
+       "16:9",
+       "9:16",
+       "1:1"
+      ]
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Aspect Ratio"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "request_id",
+   "edit_prompt"
+  ],
+  "title": "MotionGraphicsEditRequest"
+ },
+ "Kling4ImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "maxLength": 20000,
+    "title": "Prompt"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 10,
+    "minItems": 1,
+    "title": "Images List"
+   },
+   "elements": {
+    "anyOf": [
+     {
+      "items": {
+       "$ref": "#/components/schemas/Kling4ImageElement"
+      },
+      "type": "array",
+      "maxItems": 10
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Elements"
+   },
+   "mode": {
+    "type": "string",
+    "enum": [
+     "default",
+     "series"
+    ],
+    "title": "Mode",
+    "default": "default"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "2k",
+     "4k",
+     "8k"
+    ],
+    "title": "Resolution",
+    "default": "2k"
+   },
+   "aspect_ratio": {
+    "type": "string",
+    "enum": [
+     "auto",
+     "9:16",
+     "2:3",
+     "3:4",
+     "1:1",
+     "4:3",
+     "3:2",
+     "16:9",
+     "21:9"
+    ],
+    "title": "Aspect Ratio",
+    "default": "auto"
+   },
+   "count": {
+    "type": "integer",
+    "maximum": 10.0,
+    "minimum": 1.0,
+    "title": "Count",
+    "default": 1
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "Kling4ImageEditRequest"
+ },
+ "MaiImageEditRequest": {
+  "properties": {
+   "prompt": {
+    "type": "string",
+    "maxLength": 32000,
+    "minLength": 1,
+    "title": "Prompt"
+   },
+   "size": {
+    "anyOf": [
+     {
+      "type": "string"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Size"
+   },
+   "resolution": {
+    "type": "string",
+    "enum": [
+     "1K",
+     "2K"
+    ],
+    "title": "Resolution",
+    "default": "1K"
+   },
+   "background": {
+    "type": "string",
+    "enum": [
+     "opaque",
+     "transparent"
+    ],
+    "title": "Background",
+    "default": "opaque"
+   },
+   "output_format": {
+    "type": "string",
+    "enum": [
+     "png",
+     "jpeg",
+     "webp"
+    ],
+    "title": "Output Format",
+    "default": "png"
+   },
+   "webhook_url": {
+    "anyOf": [
+     {
+      "type": "string",
+      "maxLength": 2083,
+      "minLength": 1,
+      "format": "uri"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Webhook Url"
+   },
+   "images_list": {
+    "items": {
+     "type": "string",
+     "maxLength": 2083,
+     "minLength": 1,
+     "format": "uri"
+    },
+    "type": "array",
+    "maxItems": 5,
+    "minItems": 1,
+    "title": "Images List"
+   }
+  },
+  "type": "object",
+  "required": [
+   "prompt",
+   "images_list"
+  ],
+  "title": "MaiImageEditRequest"
+ },
+ "WhiteLabelCreditAdjustmentRequest": {
+  "properties": {
+   "credit_delta": {
+    "anyOf": [
+     {
+      "type": "number",
+      "maximum": 1000000.0,
+      "minimum": -1000000.0
+     },
+     {
+      "type": "string",
+      "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+     }
+    ],
+    "title": "Credit Delta"
+   },
+   "reason": {
+    "type": "string",
+    "maxLength": 500,
+    "minLength": 3,
+    "title": "Reason"
+   }
+  },
+  "type": "object",
+  "required": [
+   "credit_delta",
+   "reason"
+  ],
+  "title": "WhiteLabelCreditAdjustmentRequest"
+ }
+}

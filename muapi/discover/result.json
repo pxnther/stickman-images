@@ -1,0 +1,1215 @@
+{
+ "count": 83,
+ "paths": [
+  {
+   "path": "/auth/admin_deduct_credits",
+   "method": "post",
+   "summary": "Admin Deduct Credits",
+   "body": null
+  },
+  {
+   "path": "/app/credit_transactions",
+   "method": "get",
+   "summary": "Get Credit Transactions",
+   "body": null
+  },
+  {
+   "path": "/app/edit-update/{update_id}",
+   "method": "put",
+   "summary": "Edit Update",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/UpdateBase"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/reve-image-edit",
+   "method": "post",
+   "summary": "reve-image-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/ReveImageEdit"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/muse-image-edit",
+   "method": "post",
+   "summary": "muse-image-edit (budget)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MuseImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-3-klein-edit-image",
+   "method": "post",
+   "summary": "flux-3-klein-edit-image (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux3KleinEditImageRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/gpt4o-edit",
+   "method": "post",
+   "summary": "gpt4o-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Gpt4oEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-o3-image-edit",
+   "method": "post",
+   "summary": "kling-o3-image-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/KlingO3EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/nano-banana-2-lite-edit",
+   "method": "post",
+   "summary": "Nano Banana 2 Lite Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/NanoBanana2LiteEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/bytedance-seededit-image",
+   "method": "post",
+   "summary": "bytedance-seededit-v3 (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/SeedEditI2IRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit",
+   "method": "post",
+   "summary": "qwen-image-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/nano-banana-edit",
+   "method": "post",
+   "summary": "nano-banana-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/NanoBananaEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/bytedance-seedream-edit-v4",
+   "method": "post",
+   "summary": "bytedance-seedream-v4-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/SeedreamEditv4I2IRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.2-edit-video",
+   "method": "post",
+   "summary": "wan2.2-edit-video",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan22EditVideoRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit-plus",
+   "method": "post",
+   "summary": "qwen-image-edit-plus (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEditPlusRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.5-image-edit",
+   "method": "post",
+   "summary": "wan2.5-image-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan25EditImageRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/grok-imagine-image-2-edit",
+   "method": "post",
+   "summary": "grok-imagine-image-2-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/GrokImagineImage2EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit-plus-lora",
+   "method": "post",
+   "summary": "qwen-image-edit-plus-lora",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEditPlusLoraRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit-2511-lora",
+   "method": "post",
+   "summary": "qwen-image-edit-2511-lora",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEdit2511LoraRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit-lora",
+   "method": "post",
+   "summary": "qwen-image-edit-lora",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEditLoraRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/nano-banana-pro-edit",
+   "method": "post",
+   "summary": "nano-banana-pro-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/NanoBananaProEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-o1-video-edit",
+   "method": "post",
+   "summary": "kling-o1-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/KlingO1VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-o1-video-edit-fast",
+   "method": "post",
+   "summary": "kling-o1-video-edit-fast (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/KlingO1VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-o1-edit-image",
+   "method": "post",
+   "summary": "kling-o1-edit-image",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/KlingO1EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-dev-edit",
+   "method": "post",
+   "summary": "flux-2-dev-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2DevEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-flex-edit",
+   "method": "post",
+   "summary": "flux-2-flex-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2FlexEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-pro-edit",
+   "method": "post",
+   "summary": "flux-2-pro-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2ProEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/bytedance-seedream-v4.5-edit",
+   "method": "post",
+   "summary": "bytedance-seedream-v4.5-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedreamv45EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-o1-standard-video-edit",
+   "method": "post",
+   "summary": "kling-o1-standard-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/KlingO1StandardVideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-edit-2511",
+   "method": "post",
+   "summary": "qwen-image-edit-2511",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImageEdit2511Request"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.6-image-edit",
+   "method": "post",
+   "summary": "wan2.6-image-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan26ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/gpt-image-1.5-edit",
+   "method": "post",
+   "summary": "gpt-image-1.5-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/GPTImage15EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-4b-edit",
+   "method": "post",
+   "summary": "flux-2-klein-4b-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein4BEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-4b-turbo-edit",
+   "method": "post",
+   "summary": "flux-2-klein-4b-turbo-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein4BTurboEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-9b-edit",
+   "method": "post",
+   "summary": "flux-2-klein-9b-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein9BEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-9b-turbo-edit",
+   "method": "post",
+   "summary": "flux-2-klein-9b-turbo-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein9BTurboEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-4b-edit-lora",
+   "method": "post",
+   "summary": "flux-2-klein-4b-edit-lora",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein4BEditLoraRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/flux-2-klein-9b-edit-lora",
+   "method": "post",
+   "summary": "flux-2-klein-9b-edit-lora",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Flux2Klein9BEditLoraRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedream-5.0-edit",
+   "method": "post",
+   "summary": "bytedance-seedream-v5.0-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedream5LiteEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedream-5.0-pro-edit",
+   "method": "post",
+   "summary": "bytedance-seedream-5.0-pro-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedream5ProEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedream-5.0-flash-edit",
+   "method": "post",
+   "summary": "seedream-5.0-flash-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedream5FlashEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedream-5.5-edit",
+   "method": "post",
+   "summary": "seedream-5.5-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedream55EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/minimax-h3-image-edit",
+   "method": "post",
+   "summary": "minimax-h3-image-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MiniMaxH3ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/minimax-h3-image-highspeed-edit",
+   "method": "post",
+   "summary": "minimax-h3-image-highspeed-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MiniMaxH3ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/nano-banana-2-1-edit",
+   "method": "post",
+   "summary": "nano-banana-2-1-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/NanoBanana21EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/nano-banana-2-edit",
+   "method": "post",
+   "summary": "nano-banana-2-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/NanoBanana2EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-v2.0-video-edit",
+   "method": "post",
+   "summary": "sd-2-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance2VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-2.0-edit",
+   "method": "post",
+   "summary": "qwen-image-2.0-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImage20EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/qwen-image-2.0-pro-edit",
+   "method": "post",
+   "summary": "qwen-image-2.0-pro-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/QwenImage20EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-flash-video-edit",
+   "method": "post",
+   "summary": "seedance-2.5-flash-video-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25FlashVideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-flash-spicy-video-edit",
+   "method": "post",
+   "summary": "seedance-2.5-flash-spicy-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25FlashVideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-flash-intl-video-edit",
+   "method": "post",
+   "summary": "seedance-2.5-flash-intl-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25FlashVideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-video-edit",
+   "method": "post",
+   "summary": "Seedance 2 5 Video Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-video-edit-480p",
+   "method": "post",
+   "summary": "Seedance 2 5 Video Edit 480P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit480pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-video-edit-1080p",
+   "method": "post",
+   "summary": "Seedance 2 5 Video Edit 1080P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit1080pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-video-edit-4k",
+   "method": "post",
+   "summary": "Seedance 2 5 Video Edit 4K",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit4kRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-intl-video-edit",
+   "method": "post",
+   "summary": "Seedance 2 5 Intl Video Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-spicy-video-edit",
+   "method": "post",
+   "summary": "Seedance 2 5 Spicy Video Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-intl-video-edit-480p",
+   "method": "post",
+   "summary": "Seedance 2 5 Intl Video Edit 480P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit480pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-spicy-video-edit-480p",
+   "method": "post",
+   "summary": "Seedance 2 5 Spicy Video Edit 480P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit480pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-intl-video-edit-1080p",
+   "method": "post",
+   "summary": "Seedance 2 5 Intl Video Edit 1080P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit1080pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-spicy-video-edit-1080p",
+   "method": "post",
+   "summary": "Seedance 2 5 Spicy Video Edit 1080P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit1080pRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-intl-video-edit-4k",
+   "method": "post",
+   "summary": "Seedance 2 5 Intl Video Edit 4K",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit4kRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/seedance-2.5-spicy-video-edit-4k",
+   "method": "post",
+   "summary": "Seedance 2 5 Spicy Video Edit 4K",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Seedance25VideoEdit4kRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.7-image-edit",
+   "method": "post",
+   "summary": "wan2.7-image-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan27ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.7-image-edit-pro",
+   "method": "post",
+   "summary": "wan2.7-image-edit-pro (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan27ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/wan2.7-video-edit",
+   "method": "post",
+   "summary": "wan2.7-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Wan27VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1-video-edit-1080p",
+   "method": "post",
+   "summary": "happy-horse-1-video-edit-1080p (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse1VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1-video-edit-720p",
+   "method": "post",
+   "summary": "happy-horse-1-video-edit-720p (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse1VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1-video-edit",
+   "method": "post",
+   "summary": "happy-horse-1-video-edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse1VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1.1-video-edit-1080p",
+   "method": "post",
+   "summary": "Happy Horse 1 1 Video Edit 1080P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse11VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1.1-video-edit-720p",
+   "method": "post",
+   "summary": "Happy Horse 1 1 Video Edit 720P",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse11VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/happy-horse-1.1-video-edit",
+   "method": "post",
+   "summary": "Happy Horse 1 1 Video Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/HappyHorse11VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/gemini-omni-video-edit",
+   "method": "post",
+   "summary": "Gemini Omni Video Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/GeminiOmniV2VRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/gemini-omni-flash-1-1-edit",
+   "method": "post",
+   "summary": "Gemini Omni Flash 1 1 Edit",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/GeminiOmniFlash11EditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/gemini-omni-flash-1-2-video-edit",
+   "method": "post",
+   "summary": "gemini-omni-flash-1-2-video-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/GeminiOmniFlash12VideoEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/motion-graphics-edit",
+   "method": "post",
+   "summary": "motion-graphics-edit (balanced)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MotionGraphicsEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/kling-4.0-image-edit",
+   "method": "post",
+   "summary": "kling-4.0-image-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/Kling4ImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/mai-image-2.7-image-edit",
+   "method": "post",
+   "summary": "mai-image-2.7-image-edit (best)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MaiImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/api/v1/mai-image-2.7-flash-image-edit",
+   "method": "post",
+   "summary": "mai-image-2.7-flash-image-edit (fast)",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/MaiImageEditRequest"
+      }
+     }
+    }
+   }
+  },
+  {
+   "path": "/payments/create_credits_checkout_session",
+   "method": "get",
+   "summary": "Create Credits Checkout Session",
+   "body": null
+  },
+  {
+   "path": "/payments/verify_credits_topup",
+   "method": "get",
+   "summary": "Verify Credits Payment",
+   "body": null
+  },
+  {
+   "path": "/whitelabel/owner/users/{whitelabel_user_id}/credit-adjustments",
+   "method": "post",
+   "summary": "Adjust White Label Credits",
+   "body": {
+    "required": true,
+    "content": {
+     "application/json": {
+      "schema": {
+       "$ref": "#/components/schemas/WhiteLabelCreditAdjustmentRequest"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "components": []
+}
