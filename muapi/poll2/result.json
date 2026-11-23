@@ -1,0 +1,54 @@
+[
+ {
+  "name": "wan27",
+  "status": 200,
+  "result": {
+   "id": "23ac1398-cc57-4425-872d-2cd5bad57505",
+   "model": "unknown",
+   "inputs": {
+    "prompt": "Turn this into photorealistic cinematic live-action footage. Keep the exact same camera moves, cuts, framing and timing. Keep the character as the same smooth glossy white 3D stickman with black dot eyes, same shape and poses. Make the Brooklyn street, buildings and sky look like real footage: real brick, glass with reflections, natural sunlight and shadows, realistic clouds.",
+    "video_url": "https://cdn.jsdelivr.net/gh/pxnther/stickman-images@ae485b8/muapi/fly10/clip.mp4",
+    "images_list": null,
+    "negative_prompt": "cartoon, CGI render, plastic, blurry, distorted body, extra limbs",
+    "resolution": "720p",
+    "duration": 0,
+    "audio_setting": "auto",
+    "submit_attempted_at": "2026-11-23T04:46:47.406469+00:00"
+   },
+   "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/23ac1398-cc57-4425-872d-2cd5bad57505_e1e67d52.mp4"
+   ],
+   "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/23ac1398-cc57-4425-872d-2cd5bad57505/result"
+   },
+   "has_nsfw_contents": [
+    false
+   ],
+   "status": "completed",
+   "created_at": "2026-11-23T04:46:47.188218+00:00",
+   "expires_at": "2026-12-23T04:46:47.188218+00:00",
+   "error": "",
+   "executionTime": 2563174.183,
+   "timings": {
+    "inference": 2563174.183
+   },
+   "cost": {
+    "amount_usd": 1.3,
+    "amount_credits": 103,
+    "bonus_credits_used": 0,
+    "refunded": false
+   }
+  }
+ },
+ {
+  "balance_status": 200,
+  "balance": {
+   "balance": 7.66,
+   "bonus_balances": {},
+   "topup_totals": {},
+   "currency": "USD",
+   "email": "syazan64@gmail.com",
+   "web_safety_forced": true
+  }
+ }
+]
