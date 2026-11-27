@@ -1,0 +1,656 @@
+{
+ "duration": 56.189375,
+ "aligner": "whisperx-script",
+ "words": [
+  {
+   "word": "What",
+   "start": 0.1,
+   "end": 0.22
+  },
+  {
+   "word": "if",
+   "start": 0.26,
+   "end": 0.32
+  },
+  {
+   "word": "you",
+   "start": 0.36,
+   "end": 0.54
+  },
+  {
+   "word": "doubled",
+   "start": 0.64,
+   "end": 0.94
+  },
+  {
+   "word": "in",
+   "start": 1.0,
+   "end": 1.08
+  },
+  {
+   "word": "size",
+   "start": 1.18,
+   "end": 1.6
+  },
+  {
+   "word": "every",
+   "start": 1.8,
+   "end": 2.04
+  },
+  {
+   "word": "time",
+   "start": 2.08,
+   "end": 2.3
+  },
+  {
+   "word": "you",
+   "start": 2.34,
+   "end": 2.48
+  },
+  {
+   "word": "said",
+   "start": 2.5,
+   "end": 2.68
+  },
+  {
+   "word": "\"bro\"?",
+   "start": 2.7,
+   "end": 3.181
+  },
+  {
+   "word": "Bro.",
+   "start": 3.721,
+   "end": 4.121
+  },
+  {
+   "word": "Three",
+   "start": 4.561,
+   "end": 4.781
+  },
+  {
+   "word": "metres.",
+   "start": 4.821,
+   "end": 5.161
+  },
+  {
+   "word": "You",
+   "start": 5.621,
+   "end": 5.721
+  },
+  {
+   "word": "can",
+   "start": 5.761,
+   "end": 5.901
+  },
+  {
+   "word": "dunk",
+   "start": 5.981,
+   "end": 6.221
+  },
+  {
+   "word": "without",
+   "start": 6.241,
+   "end": 6.521
+  },
+  {
+   "word": "even",
+   "start": 6.561,
+   "end": 6.741
+  },
+  {
+   "word": "jumping.",
+   "start": 6.841,
+   "end": 7.261
+  },
+  {
+   "word": "Bro.",
+   "start": 7.661,
+   "end": 8.121
+  },
+  {
+   "word": "Seven",
+   "start": 8.521,
+   "end": 8.841
+  },
+  {
+   "word": "metres.",
+   "start": 8.881,
+   "end": 9.242
+  },
+  {
+   "word": "Hi,",
+   "start": 9.722,
+   "end": 9.982
+  },
+  {
+   "word": "second",
+   "start": 10.202,
+   "end": 10.462
+  },
+  {
+   "word": "floor.",
+   "start": 10.482,
+   "end": 10.782
+  },
+  {
+   "word": "Bro,",
+   "start": 11.202,
+   "end": 11.562
+  },
+  {
+   "word": "bro,",
+   "start": 11.622,
+   "end": 11.962
+  },
+  {
+   "word": "bro.",
+   "start": 12.022,
+   "end": 12.462
+  },
+  {
+   "word": "Fifty-four",
+   "start": 12.882,
+   "end": 13.662
+  },
+  {
+   "word": "metres.",
+   "start": 13.722,
+   "end": 14.082
+  },
+  {
+   "word": "Almost",
+   "start": 14.502,
+   "end": 14.842
+  },
+  {
+   "word": "the",
+   "start": 14.902,
+   "end": 15.003
+  },
+  {
+   "word": "Leaning",
+   "start": 15.083,
+   "end": 15.383
+  },
+  {
+   "word": "Tower",
+   "start": 15.423,
+   "end": 15.723
+  },
+  {
+   "word": "of",
+   "start": 15.763,
+   "end": 15.823
+  },
+  {
+   "word": "Pisa.",
+   "start": 15.903,
+   "end": 16.323
+  },
+  {
+   "word": "But",
+   "start": 16.803,
+   "end": 16.963
+  },
+  {
+   "word": "here's",
+   "start": 17.143,
+   "end": 17.383
+  },
+  {
+   "word": "the",
+   "start": 17.423,
+   "end": 17.523
+  },
+  {
+   "word": "problem.",
+   "start": 17.543,
+   "end": 17.943
+  },
+  {
+   "word": "Every",
+   "start": 18.483,
+   "end": 18.683
+  },
+  {
+   "word": "time",
+   "start": 18.723,
+   "end": 18.903
+  },
+  {
+   "word": "you",
+   "start": 18.943,
+   "end": 19.083
+  },
+  {
+   "word": "double,",
+   "start": 19.143,
+   "end": 19.463
+  },
+  {
+   "word": "you",
+   "start": 19.743,
+   "end": 19.863
+  },
+  {
+   "word": "get",
+   "start": 19.883,
+   "end": 20.003
+  },
+  {
+   "word": "eight",
+   "start": 20.203,
+   "end": 20.383
+  },
+  {
+   "word": "times",
+   "start": 20.443,
+   "end": 20.763
+  },
+  {
+   "word": "heavier,",
+   "start": 20.843,
+   "end": 21.224
+  },
+  {
+   "word": "but",
+   "start": 21.604,
+   "end": 21.704
+  },
+  {
+   "word": "your",
+   "start": 21.744,
+   "end": 21.884
+  },
+  {
+   "word": "bones",
+   "start": 21.964,
+   "end": 22.384
+  },
+  {
+   "word": "only",
+   "start": 22.524,
+   "end": 22.704
+  },
+  {
+   "word": "get",
+   "start": 22.744,
+   "end": 22.864
+  },
+  {
+   "word": "four",
+   "start": 23.004,
+   "end": 23.224
+  },
+  {
+   "word": "times",
+   "start": 23.284,
+   "end": 23.544
+  },
+  {
+   "word": "stronger.",
+   "start": 23.624,
+   "end": 24.084
+  },
+  {
+   "word": "Real",
+   "start": 24.624,
+   "end": 24.864
+  },
+  {
+   "word": "physics",
+   "start": 24.924,
+   "end": 25.284
+  },
+  {
+   "word": "says",
+   "start": 25.344,
+   "end": 25.524
+  },
+  {
+   "word": "your",
+   "start": 25.564,
+   "end": 25.724
+  },
+  {
+   "word": "legs",
+   "start": 25.784,
+   "end": 26.004
+  },
+  {
+   "word": "would've",
+   "start": 26.024,
+   "end": 26.284
+  },
+  {
+   "word": "snapped",
+   "start": 26.344,
+   "end": 26.684
+  },
+  {
+   "word": "already.",
+   "start": 26.724,
+   "end": 27.065
+  },
+  {
+   "word": "We'll",
+   "start": 27.705,
+   "end": 27.905
+  },
+  {
+   "word": "ignore",
+   "start": 27.945,
+   "end": 28.205
+  },
+  {
+   "word": "that.",
+   "start": 28.245,
+   "end": 28.425
+  },
+  {
+   "word": "Bro",
+   "start": 28.965,
+   "end": 29.205
+  },
+  {
+   "word": "number",
+   "start": 29.245,
+   "end": 29.485
+  },
+  {
+   "word": "nine:",
+   "start": 29.545,
+   "end": 29.845
+  },
+  {
+   "word": "taller",
+   "start": 30.265,
+   "end": 30.625
+  },
+  {
+   "word": "than",
+   "start": 30.665,
+   "end": 30.785
+  },
+  {
+   "word": "the",
+   "start": 30.825,
+   "end": 30.925
+  },
+  {
+   "word": "Burj",
+   "start": 30.985,
+   "end": 31.285
+  },
+  {
+   "word": "Khalifa.",
+   "start": 31.325,
+   "end": 31.845
+  },
+  {
+   "word": "Thirteen:",
+   "start": 32.245,
+   "end": 32.765
+  },
+  {
+   "word": "planes",
+   "start": 33.186,
+   "end": 33.626
+  },
+  {
+   "word": "fly",
+   "start": 33.786,
+   "end": 34.066
+  },
+  {
+   "word": "past",
+   "start": 34.126,
+   "end": 34.386
+  },
+  {
+   "word": "your",
+   "start": 34.426,
+   "end": 34.546
+  },
+  {
+   "word": "chest.",
+   "start": 34.606,
+   "end": 34.966
+  },
+  {
+   "word": "Sixteen:",
+   "start": 35.466,
+   "end": 35.946
+  },
+  {
+   "word": "your",
+   "start": 36.346,
+   "end": 36.506
+  },
+  {
+   "word": "head",
+   "start": 36.586,
+   "end": 36.826
+  },
+  {
+   "word": "is",
+   "start": 37.006,
+   "end": 37.106
+  },
+  {
+   "word": "in",
+   "start": 37.166,
+   "end": 37.266
+  },
+  {
+   "word": "space.",
+   "start": 37.406,
+   "end": 37.846
+  },
+  {
+   "word": "No",
+   "start": 38.446,
+   "end": 38.626
+  },
+  {
+   "word": "air.",
+   "start": 38.746,
+   "end": 38.926
+  },
+  {
+   "word": "Still",
+   "start": 39.567,
+   "end": 39.847
+  },
+  {
+   "word": "saying",
+   "start": 39.907,
+   "end": 40.187
+  },
+  {
+   "word": "bro.",
+   "start": 40.227,
+   "end": 40.567
+  },
+  {
+   "word": "Eighteen:",
+   "start": 41.027,
+   "end": 41.507
+  },
+  {
+   "word": "the",
+   "start": 41.887,
+   "end": 42.007
+  },
+  {
+   "word": "Space",
+   "start": 42.087,
+   "end": 42.387
+  },
+  {
+   "word": "Station",
+   "start": 42.427,
+   "end": 42.807
+  },
+  {
+   "word": "flies",
+   "start": 42.947,
+   "end": 43.287
+  },
+  {
+   "word": "past",
+   "start": 43.347,
+   "end": 43.587
+  },
+  {
+   "word": "your",
+   "start": 43.627,
+   "end": 43.767
+  },
+  {
+   "word": "face.",
+   "start": 43.847,
+   "end": 44.167
+  },
+  {
+   "word": "Twenty-three:",
+   "start": 44.627,
+   "end": 45.208
+  },
+  {
+   "word": "you're",
+   "start": 45.588,
+   "end": 45.788
+  },
+  {
+   "word": "taller",
+   "start": 45.828,
+   "end": 46.208
+  },
+  {
+   "word": "than",
+   "start": 46.248,
+   "end": 46.368
+  },
+  {
+   "word": "the",
+   "start": 46.408,
+   "end": 46.488
+  },
+  {
+   "word": "Earth",
+   "start": 46.608,
+   "end": 46.808
+  },
+  {
+   "word": "is",
+   "start": 46.928,
+   "end": 47.008
+  },
+  {
+   "word": "wide.",
+   "start": 47.148,
+   "end": 47.528
+  },
+  {
+   "word": "Twenty-eight:",
+   "start": 47.928,
+   "end": 48.428
+  },
+  {
+   "word": "the",
+   "start": 48.828,
+   "end": 48.928
+  },
+  {
+   "word": "Moon",
+   "start": 49.008,
+   "end": 49.328
+  },
+  {
+   "word": "is",
+   "start": 49.448,
+   "end": 49.528
+  },
+  {
+   "word": "at",
+   "start": 49.588,
+   "end": 49.668
+  },
+  {
+   "word": "your",
+   "start": 49.688,
+   "end": 49.828
+  },
+  {
+   "word": "chest.",
+   "start": 49.928,
+   "end": 50.308
+  },
+  {
+   "word": "One",
+   "start": 50.828,
+   "end": 50.949
+  },
+  {
+   "word": "more",
+   "start": 51.009,
+   "end": 51.329
+  },
+  {
+   "word": "and...",
+   "start": 51.589,
+   "end": 51.829
+  },
+  {
+   "word": "Bro.",
+   "start": 52.509,
+   "end": 52.889
+  },
+  {
+   "word": "Which",
+   "start": 53.469,
+   "end": 53.669
+  },
+  {
+   "word": "word",
+   "start": 53.729,
+   "end": 53.969
+  },
+  {
+   "word": "should",
+   "start": 53.989,
+   "end": 54.169
+  },
+  {
+   "word": "make",
+   "start": 54.189,
+   "end": 54.329
+  },
+  {
+   "word": "him",
+   "start": 54.369,
+   "end": 54.469
+  },
+  {
+   "word": "grow",
+   "start": 54.509,
+   "end": 54.689
+  },
+  {
+   "word": "next?",
+   "start": 54.729,
+   "end": 55.029
+  },
+  {
+   "word": "Comment",
+   "start": 55.469,
+   "end": 55.829
+  },
+  {
+   "word": "it.",
+   "start": 55.889,
+   "end": 55.969
+  }
+ ]
+}
